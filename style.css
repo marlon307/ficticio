@@ -1442,7 +1442,7 @@ input:-webkit-autofill {
         padding: 0;
         display: none;
     }
-    .menu:active .ctg-search{
+    .menu:hover .ctg-search{
         display: flex;
     }
     .ctg-search .option-search{
