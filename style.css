@@ -1417,12 +1417,14 @@ input:-webkit-autofill {
     }
     .block{
         width: 100%;
-        margin: 10px 30px;
+        margin: 0 20px 0 0;
     }
-    .opbt,
+    .opbt{
+        display: block;
+        margin-right: 10px;
+    }
     .mn-user:nth-child(2){
         display: block;
-        margin: 0 11px;
     }
     .ctg-search{
         position: fixed;
