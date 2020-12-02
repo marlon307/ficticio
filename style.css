@@ -78,13 +78,12 @@ body{
 .mn:hover{
     background: var(--c-bt);
 }
-.mndk{
-    margin-top: 20px;
+.mn{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.mnm{
+.opbt{
     display: none;
 }
 .menu{
@@ -113,6 +112,7 @@ body{
     cursor: pointer;
 }
 .ctg-search li .ctg{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,13 +180,16 @@ body{
     background: var(--c-bgp);
 }
 .mn-user:hover .ico30,
-.ctg-search li .ctg:hover{
-    padding-bottom: 30px;
+.ctg-search li:hover .ctg{
+    padding-bottom: 20px;
 }
 .mn-user{
     position: relative;
     width: 35px;
     height: 30px;
+}
+.mn-user:nth-child(2){
+    display: none;
 }
 .mn-user .set::after{
     bottom: -20px;
@@ -238,7 +241,7 @@ body{
     content: "";
     display: none;
     position: absolute;
-    bottom: -10px;
+    bottom: 4px;
     margin: 0 auto;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
@@ -1405,53 +1408,82 @@ input:-webkit-autofill {
         bottom: 0;
         height: 60px;
         background: var(--c-bt);
-    }
-    .block,
-    .menu{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .mnm{
         display: flex;
         align-items: center;
-        justify-content:space-between;
-        margin: 0 20px;
     }
-    .menum .ico30{
-        position: relative;
-        width: 35px;
-        height: 30px;
+    .menu{
+        display: flex;
+        gap: 20px;
     }
-    /*dmm drop menu mobile cfg*/
-    .dmm{
-        position: fixed;
-        bottom: 50px;
+    .menu p, .logo{
         display: none;
-        align-items: center;
-        justify-content: center;
+    }
+    .block{
+        width: 400px;
+        margin: 0;
+        gap: 45px;
+    }
+    .opbt,
+    .mn-user:nth-child(2){
+        display: block;
+    }
+    .ctg-search{
+        position: fixed;
+        align-items: flex-start;
         flex-direction: column;
         width: 100%;
-        min-height: 100%;
+        height: 100%;
         right: 0;
-        background: var(--c-p);
+        bottom: 60px;
+        background: #202020;
+        margin: 0;
+        padding: 0;
+        display: none;
     }
+    .menu:active .ctg-search{
+        display: flex;
+    }
+    .ctg-search .option-search{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .ctg-search .ctg-option{
+        padding: 30px 0;
+    }
+    
+    .ctg-search .container-ctg{
+        width: 50%;
+        height: 70%;
+        display: block;
+        left: auto;
+        right: 0;
+        bottom: 0;
+        top: 150px;
+    }
+    .ctg-search .sub-mndp{
+        width: 100%;
+        flex-flow: column;
+        overflow: auto;
+    }
+    .ctg-search .drop-search{
+        top: 80px;
+        right: 10px;
+    }
+    .ctg-search .drop-search:hover{
+        width: 95%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
