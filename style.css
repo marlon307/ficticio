@@ -1474,9 +1474,15 @@ input:-webkit-autofill {
     .ctg-search .drop-search:hover{
         width: 95%;
     }
-
-
-
+    .drop-mnu{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 92%;
+    }
+    .drop-mnu .block-cards{
+        max-height: 80%;
+    }
 
 
 
