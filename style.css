@@ -1410,22 +1410,19 @@ input:-webkit-autofill {
         background: var(--c-bt);
         display: flex;
         align-items: center;
+        justify-content: center;
     }
-    .menu{
-        display: flex;
-        gap: 20px;
-    }
-    .menu p, .logo{
+    .menu:first-child, .logo{
         display: none;
     }
     .block{
-        width: 400px;
-        margin: 0;
-        gap: 45px;
+        width: 100%;
+        margin: 10px 30px;
     }
     .opbt,
     .mn-user:nth-child(2){
         display: block;
+        margin: 0 11px;
     }
     .ctg-search{
         position: fixed;
