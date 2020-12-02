@@ -70,9 +70,6 @@ body{
     position: fixed;
     width: 100%;
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background: linear-gradient(180deg,#1e1e1e66, transparent);
     transition: .5s;
     top: 0;
@@ -80,6 +77,15 @@ body{
 }
 .mn:hover{
     background: var(--c-bt);
+}
+.mndk{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mnm{
+    display: none;
 }
 .menu{
     position: relative;
@@ -330,7 +336,7 @@ h5, h4, h3, h2, h1{
 }
 .prop picture{
     width: 100%;
-    height: 800px;
+    max-height: 800px;
 }
 .vitrine{
     margin: 50px 70px;
@@ -498,6 +504,8 @@ h5, h4, h3, h2, h1{
 .genero-user .block-gn{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .panel li{
     margin-top: 20px;
@@ -1187,8 +1195,8 @@ picture{
 /*imagem*/
 img{
     object-fit: contain;
-    min-width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 /*Padra de icones*/
 .ico15 svg{
@@ -1212,7 +1220,7 @@ img{
 .ico30{
     display: flex;
     justify-content: center;
-    color:  var(--c-tp);
+    color:  var(--c-bt);
 }
 .ico30 svg{
     width: 30px;
@@ -1235,9 +1243,8 @@ img{
 }
 .close{
     position: absolute;
-    margin: 50px;
-    right: 0;
-    bottom: 0;
+    right: 45px;
+    bottom: 40px;
 }
 .close i{
     position: absolute;
@@ -1393,6 +1400,98 @@ input:-webkit-autofill {
     }
 }
 @media (max-width: 540px){
+    .mn{
+        top: auto;
+        bottom: 0;
+        height: 60px;
+        background: var(--c-bt);
+    }
+    .block,
+    .menu{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mnm{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin: 0 20px;
+    }
+    .menum .ico30{
+        position: relative;
+        width: 35px;
+        height: 30px;
+    }
+    /*dmm drop menu mobile cfg*/
+    .dmm{
+        position: fixed;
+        bottom: 50px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100%;
+        right: 0;
+        background: var(--c-p);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    .vitrine{
+        margin: 50px 5px;
+    }
     .content-product .primary-box{
         gap: 0;
     }
@@ -1492,7 +1591,7 @@ input:-webkit-autofill {
     }
     .acp, .aep{
         width: auto;
-        margin: 30px 10px;
+        margin: 30px 5px;
         padding: 20px;
     }
     .panel{
@@ -1500,7 +1599,7 @@ input:-webkit-autofill {
     }
     .panel-cfg{
         padding: 50px 0;
-        margin: 0 20px;
+        margin: 0 5px;
     }
     .panel-cfg .container{
         padding: 0 20px;
@@ -1517,7 +1616,7 @@ input:-webkit-autofill {
     .mp .content-order{
         width: auto;
         padding: 20px;
-        margin: 10px;
+        margin: 20px 5px;
     }
     .content-order .opl{
         flex-wrap: wrap;
