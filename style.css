@@ -274,7 +274,7 @@ body{
     align-items: center;
 }
 .block-cards picture{
-    width: 80px;
+    width: 110px;
     height: 100px;
 }
 .block-cards .info-prod{
@@ -1617,9 +1617,7 @@ input:-webkit-autofill {
     }
     .block-cards .card{
         margin: 20px 0;
-    }
-    .block-cards picture{
-        width: 60px;
+        padding: 10px 0;
     }
     .info-prod .pl{
         font-size: var(--font-13);
