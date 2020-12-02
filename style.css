@@ -1617,7 +1617,7 @@ input:-webkit-autofill {
     }
     .block-cards .card{
         margin: 20px 0;
-        padding: 10px 0;
+        padding: 10px;
     }
     .info-prod .pl{
         font-size: var(--font-13);
