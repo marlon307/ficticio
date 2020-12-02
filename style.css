@@ -1445,7 +1445,8 @@ input:-webkit-autofill {
         padding: 0;
         display: none;
     }
-    .menu:hover .ctg-search{
+    .menu:hover .ctg-search
+    .menu:active .ctg-search{
         display: flex;
     }
     .ctg-search .option-search{
@@ -1474,7 +1475,8 @@ input:-webkit-autofill {
         top: 80px;
         right: 10px;
     }
-    .ctg-search .drop-search:hover{
+    .ctg-search .drop-search:hover
+    .ctg-search .drop-search:active{
         width: 95%;
     }
     .drop-mnu{
