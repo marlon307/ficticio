@@ -828,6 +828,7 @@ h5, h4, h3, h2, h1{
 }
 .second-box .tab-content{
     width: 100%;
+    height: 500px;
     display: none;
     position: absolute;
     left: 0;
