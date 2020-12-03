@@ -97,9 +97,6 @@ body{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-.opbt{
-    display: none;
-}
 .menu{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1791,10 +1788,6 @@ input:-webkit-autofill {
     .menu,.block{
         width: auto;
         margin: 0;
-    }
-    .opbt{
-        display: block; 
-        padding: 10px 20px;
     }
     .mn-user{
         padding: 10px 20px;
