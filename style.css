@@ -1856,7 +1856,7 @@ input:-webkit-autofill {
     }
     .drop-mnu{
         position: fixed;
-        bottom: 7%;
+        bottom: 8.5%;
         width: 100%;
         height: 92%;
     }
@@ -1867,7 +1867,7 @@ input:-webkit-autofill {
         position: fixed;
         width: 100%;
         height: 83%;
-        bottom: 7%;
+        bottom: 8.5%;
     }
 
 
