@@ -805,8 +805,8 @@ h5, h4, h3, h2, h1{
 .second-box{
     position: relative;
     width: 100%;
-    height: 650px;
-    overflow: auto;
+    height: 700px;
+    overflow: hidden;
 }
 .second-box .lit-tab{
     display: flex;
@@ -861,6 +861,7 @@ h5, h4, h3, h2, h1{
 }
 .block-detail picture{
     width: 150px;
+    height: 170px;
     padding-bottom: 20px;
     margin: 0 auto;
 }
