@@ -97,6 +97,9 @@ body{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+.opbt{
+    display: none;
+}
 .menu{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1789,6 +1792,10 @@ input:-webkit-autofill {
         width: auto;
         margin: 0;
     }
+    .opbt{
+        display: block; 
+        padding: 10px 20px;
+    }
     .mn-user{
         padding: 10px 20px;
     }
@@ -1813,8 +1820,9 @@ input:-webkit-autofill {
         padding: 0;
         display: none;
     }
-    .mn-user:hover .mn-cfg,
     .menu:hover .ctg-search{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: block;
     }
     .ctg-search .option-search{
