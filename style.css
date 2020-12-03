@@ -806,7 +806,7 @@ h5, h4, h3, h2, h1{
     position: relative;
     width: 100%;
     height: 700px;
-    overflow: hidden;
+    overflow: auto;
 }
 .second-box .lit-tab{
     display: flex;
@@ -831,7 +831,6 @@ h5, h4, h3, h2, h1{
     position: absolute;
     left: 0;
     padding: 40px 0;
-    overflow: auto;
 }
 .itab:checked ~ .tabinfo{
     border-bottom: .5px solid var(--c-b);
@@ -1704,6 +1703,7 @@ input:-webkit-autofill {
     }
     .content-product .container-img{
         width: 35%;
+        height: 300px;
     }
     .content-product .container-prod{
         width: 35%;
