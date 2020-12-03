@@ -794,97 +794,104 @@ h5, h4, h3, h2, h1{
     width: 100%;
     height: 150px;
 }
-.content-product .second-box{
+
+
+
+
+
+
+
+
+.second-box{
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.btn-dmn{
-    padding: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0 1%;
-    color:var(--c-ih);
-    cursor: pointer;
-}
-.btn-dmn .ico20{
-    margin-left: 15px;
-}
-.btn-dmn:hover svg,
-.btn-dmn:hover .title {
-    color:var(--c-ih);
-    stroke: var(--c-ih);
-}
-.up-mnu{
-    position: absolute;
     width: 100%;
-    height: 720px;
-    background: var(--c-p);
-    box-shadow: 0px -5px 5px 0px var(--c-bs);
-    left: 0;
-    bottom: 70px;
-    display: none;
+    height: 650px;
+    overflow: auto;
 }
-.btn-dmn:hover .up-mnu{
+.second-box .lit-tab{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.second-box .lit-tab li{
+    float: left;
+}
+.second-box .tabinfo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+    margin: 0 10px;
+    color: var(--c-i);
+}
+.second-box .tab-content{
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 40px 0;
+    overflow: auto;
+}
+.itab:checked ~ .tabinfo{
+    border-bottom: .5px solid var(--c-b);
+}
+.itab:checked ~ .tab-content{
     display: block;
 }
-.up-mnu .top-title{
-    padding: 40px;
-    font-size: var(--font-20);
-    text-align: center;
+.second-box .tab-content article{
+    padding: 0 2%;
 }
-.block-title{
-    text-align: center;
-    font-size: var(--font-20);
-    color: var(--c-tp);
-}
-.up-mnu .blocks-detail{
-    max-height: 570px;
-    margin: 20px 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+
+.block-detail{
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    overflow: auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 5%;
+    flex-wrap: wrap;
 }
-.blocks-detail .detail{
-    position: relative;
-    width: 400px;
-    margin: 0 30px;
+.block-detail .detail{
+    width: 350px;
 }
-.up-mnu .detail-txt {
-    padding: 20px 30px;
-    font-size: var(--font-15);
+
+.block-detail .block-title{
+    text-align: center;
+    padding: 20px 0;
 }
-.up-mnu .detail-txt p{
-    margin-bottom: 10px;
+.block-detail picture{
+    width: 150px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
-.up-mnu .detail picture{
-    margin: 20px 0;
-    height: 220px;
+.block-detail article{
+    margin-top: 10px;
 }
-.up-mnu .products{
-    max-height: 620px;
-    overflow: auto;
+.block-detail article p{
+    color: var(--c-tp);
+    padding: 0 10px;
+    line-height: 1.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content-bag{
     position: relative;
     display: -webkit-box;
@@ -1527,10 +1534,6 @@ img{
     stroke: var(--c-i);
     cursor: pointer;
 }
-.ico20 svg:hover,
-.ico15 svg:hover{
-    stroke: var(--c-ih);
-}
 .ico20 svg{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1872,8 +1875,13 @@ input:-webkit-autofill {
 
 
 
-
-
+    .second-box .tabinfo{
+        margin: 0 5px;
+        font-size: var(--font-15);
+    }
+    .block-detail .detail{
+        margin-bottom: 40px;
+    }
 
 
 
@@ -1929,17 +1937,6 @@ input:-webkit-autofill {
     }
     .pac-img{
         display: none;
-    }
-    .content-product .second-box{
-        height: 120px;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-    .up-mnu{
-        bottom: 120px;
-    }
-    .up-mnu .blocks-detail{
-        margin: 0;
     }
     .btn-dmn{
         padding: 15px 5px;
