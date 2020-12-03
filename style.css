@@ -401,11 +401,11 @@ body{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     color: var(--c-bt);
     font-size: var(--font-20);
 }
@@ -798,16 +798,15 @@ h5, h4, h3, h2, h1{
 }
 .content-product .second-box{
     position: relative;
-    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .btn-dmn{
     padding: 25px;
@@ -845,7 +844,6 @@ h5, h4, h3, h2, h1{
 .btn-dmn:hover .up-mnu{
     display: block;
 }
-
 .up-mnu .top-title{
     padding: 40px;
     font-size: var(--font-20);
@@ -1674,9 +1672,7 @@ img{
     display: none;
 }
 .active{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     visibility: visible;
 }
 input:-webkit-autofill {
@@ -1821,9 +1817,9 @@ input:-webkit-autofill {
         display: none;
     }
     .menu:hover .ctg-search{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: block;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: block !important;
     }
     .ctg-search .option-search{
         -webkit-box-align: start;
