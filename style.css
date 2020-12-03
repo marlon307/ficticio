@@ -828,12 +828,10 @@ h5, h4, h3, h2, h1{
 }
 .second-box .tab-content{
     width: 100%;
-    height: 500px;
     display: none;
     position: absolute;
     left: 0;
     padding: 40px 0;
-    overflow: auto;
 }
 .itab:checked ~ .tabinfo{
     border-bottom: 1px solid var(--c-b);
@@ -2012,6 +2010,9 @@ input:-webkit-autofill {
     }
     .delete-prod{
         display: none;
+    }
+    .second-box{
+        height: 1550px;
     }
     .acp, .aep{
         width: auto;
