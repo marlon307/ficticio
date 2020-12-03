@@ -1820,10 +1820,9 @@ input:-webkit-autofill {
         padding: 0;
         display: none;
     }
+    .mn-user:hover .mn-cfg,
     .menu:hover .ctg-search{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: block;
     }
     .ctg-search .option-search{
         -webkit-box-align: start;
