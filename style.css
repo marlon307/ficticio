@@ -142,6 +142,7 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 75%;
 }
 .ctg-search .ctg-option{
     height: 25px;
@@ -1883,7 +1884,6 @@ input:-webkit-autofill {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        height: 75%;
     }
     .ctg-search .ctg-option{
         padding: 30px 0;
