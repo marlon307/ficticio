@@ -1996,13 +1996,13 @@ input:-webkit-autofill {
         margin-top: 20px;
     }
     .buy-bag{
-        margin: 6% auto;
+        margin: 5% auto;
         width: 150px;
         height: 45px;
         font-size: var(--font-10);
     }
     .product .price{
-        bottom: 2.8rem;
+        bottom: 3rem;
         font-size: var(--font-18);
     }
     .buy-bag .box-title{
