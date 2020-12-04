@@ -1820,10 +1820,6 @@ input:-webkit-autofill {
     }
 }
 @media (max-width: 540px){
-    *{
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
     .mn{
         top: auto;
         bottom: 0;
