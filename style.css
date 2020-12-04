@@ -825,7 +825,7 @@ h5, h4, h3, h2, h1{
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
-    color: var(--c-i);
+    color: var(--c-bt);
 }
 .second-box .tabinfo span{
     margin-right: 10px;
@@ -1545,7 +1545,7 @@ img{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    stroke: var(--c-i);
+    stroke: var(--c-bt);
 }
 .ico30{
     display: -webkit-box;
@@ -1972,6 +1972,7 @@ input:-webkit-autofill {
         width: 70%;
         height: 150px;
     }
+    .product:hover .cfg-pro,
     .product .cfg-pro{
         display: none;
     }
