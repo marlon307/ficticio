@@ -1981,7 +1981,7 @@ input:-webkit-autofill {
     }
     .product .pl{
         text-align: center;
-        height: 120px;
+        height: 110px;
         font-size: var(--font-15);
     }
     .product .pl .name-prod{
@@ -1997,12 +1997,13 @@ input:-webkit-autofill {
         margin-top: 20px;
     }
     .buy-bag{
+        margin: 0.5rem auto;
         width: 150px;
         height: 50px;
         font-size: var(--font-10);
     }
     .product .price{
-        bottom: 3.7rem;
+        bottom: 3rem;
         font-size: var(--font-18);
     }
     .buy-bag .box-title{
