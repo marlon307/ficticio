@@ -1950,7 +1950,7 @@ input:-webkit-autofill {
         height: 15px;
     }
     .product{
-        width: 48.9%;
+        width: 48.2%;
         height: 305px;
     }
     .product .product-fav{
@@ -1996,13 +1996,13 @@ input:-webkit-autofill {
         margin-top: 20px;
     }
     .buy-bag{
-        margin: 10px auto;
+        margin: 5% auto;
         width: 150px;
         height: 45px;
         font-size: var(--font-10);
     }
     .product .price{
-        bottom: 45px;
+        bottom: 2.6rem;
         font-size: var(--font-18);
     }
     .buy-bag .box-title{
