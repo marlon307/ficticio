@@ -1872,7 +1872,7 @@ input:-webkit-autofill {
     .menu:hover .ctg-search{
         display: -webkit-box;
         display: -ms-flexbox;
-        display: block;
+        display: flex;
     }
     .ctg-search .option-search{
         -webkit-box-align: start;
@@ -1889,12 +1889,11 @@ input:-webkit-autofill {
     
     .ctg-search .container-ctg{
         width: 50%;
-        height: 70%;
+        height: 73%;
         display: block;
         left: auto;
         right: 0;
-        bottom: 0;
-        top: 150px;
+        top: 130px;
     }
     .ctg-search .sub-mndp{
         width: 100%;
