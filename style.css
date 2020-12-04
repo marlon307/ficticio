@@ -29,6 +29,8 @@
     --c-bth: #202020;
     /*cor do box shadow*/
     --c-bs:#00000015;
+    /*texto tab*/
+    --c-tb:#303030 ;
     /*Cor da barra de notificação*/
     --c-nt:#ff5656;
     /*cor de positvo*/
@@ -825,9 +827,9 @@ h5, h4, h3, h2, h1{
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
-    color: var(--c-bth);
+    color: var(--c-tb);
 }
-.second-box .tabinfo h4{
+.second-box .tabinfo span{
     margin-right: 10px;
 }
 .second-box .tab-content{
@@ -1545,7 +1547,7 @@ img{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    stroke: var(--c-bth);
+    stroke: var(--c-tb);
 }
 .ico30{
     display: -webkit-box;
