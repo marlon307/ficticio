@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: OpenSans;
     src: url("fonts/OpenSans-Regular.ttf");
@@ -79,9 +86,11 @@ body{
     position: fixed;
     width: 100%;
     height: 120px;
-    background: -webkit-linear-gradient(top,#1e1e1e66, transparent);
+    background: -webkit-gradient(linear,left top, left bottom,from(#1e1e1e66), to(transparent));
+    background: -o-linear-gradient(top,#1e1e1e66, transparent);
     background: linear-gradient(180deg,#1e1e1e66, transparent);
     -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     top: 0;
     z-index: 998;
@@ -205,7 +214,9 @@ body{
         -ms-flex-align: start;
             align-items: flex-start;
     -ms-flex-flow: wrap column;
-        flex-flow: wrap column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            flex-flow: wrap column;
 }
 .ctg-search  .sub-mndp li{
     display: -webkit-box;
@@ -248,14 +259,16 @@ body{
     width: 330px;
     right: 0;
     background: var(--c-p);
-    box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
+            box-shadow: 0px 0px 5px 0px var(--c-bs);
 }
 .mn-cfg{
     position: absolute;
     display: none;
     right: 0;
     background: var(--c-p);
-    box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
+            box-shadow: 0px 0px 5px 0px var(--c-bs);
 }
 .mn-cfg ul{
     padding: 0 10px;
@@ -418,7 +431,7 @@ h5, h4, h3, h2, h1{
 }
 .prop picture{
     width: 100%;
-    max-height: 800px;
+    height: 30%;
 }
 .vitrine{
     margin: 50px 70px;
@@ -596,6 +609,7 @@ h5, h4, h3, h2, h1{
     background: var(--c-bgp);
     margin-bottom: 20px;
     -webkit-transition: 1s height;
+    -o-transition: 1s height;
     transition: 1s height;
     overflow: hidden;
 }
@@ -603,6 +617,7 @@ h5, h4, h3, h2, h1{
     height: 0;
     padding: 0 40px;
     -webkit-transition: .5s height;
+    -o-transition: .5s height;
     transition: .5s height;
     overflow: auto
 }
@@ -814,16 +829,26 @@ h5, h4, h3, h2, h1{
     height: 700px;
 }
 .second-box .lit-tab{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .second-box .lit-tab .tab{
     float: left;
 }
 .second-box .tabinfo{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
@@ -850,12 +875,17 @@ h5, h4, h3, h2, h1{
 }
 
 .block-detail{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     margin: 0 auto;
     gap: 5%;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .block-detail .detail{
     width: 350px;
@@ -1071,16 +1101,19 @@ input::-webkit-inner-spin-button {
     border-bottom: 1px solid #999999;
     border-right: 1px solid #999999;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     width: 6px;
     height: 6px;
     -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     margin-left: 20px;
 }
 .box-select .box-menu:hover span::after{
     -webkit-transform: rotate(220deg);
-            transform: rotate(220deg);
+            -ms-transform: rotate(220deg);
+        transform: rotate(220deg);
 }
 .box-select .drop-dow{
     display: none;
@@ -1088,7 +1121,8 @@ input::-webkit-inner-spin-button {
     position: absolute;
     background: var(--c-p);
     padding: 20px;
-    box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
+            box-shadow: 0px 0px 5px 0px var(--c-bs);
     max-height: 250px;
     overflow: auto;
     z-index: 1;
@@ -1128,6 +1162,7 @@ input::-webkit-inner-spin-button {
 .buy-bag:hover{ 
     color: #e1e1e1;
     -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     background: var(--c-bth);
 }
@@ -1184,7 +1219,8 @@ input::-webkit-inner-spin-button {
     padding: 2px 3px;
     border-radius: 10px;
     background: var(--c-p);
-    box-shadow: 0 0 5px 0 var(--c-bs);
+    -webkit-box-shadow: 0 0 5px 0 var(--c-bs);
+            box-shadow: 0 0 5px 0 var(--c-bs);
 }
 .cfg-pro div:hover ul {
     display: block;
@@ -1465,6 +1501,9 @@ input::-webkit-inner-spin-button {
 .box-text .itb:-ms-input-placeholder{
     color: transparent;
 }
+.box-text .itb::-ms-input-placeholder{
+    color: transparent;
+}
 .box-text .itb::placeholder{
     color: transparent;
 }
@@ -1474,6 +1513,7 @@ input::-webkit-inner-spin-button {
     display: block;
     font-size: var(--font-13);
     -webkit-transition: .2s;
+    -o-transition: .2s;
     transition: .2s;
     color: var(--c-tp);
 }
@@ -1507,7 +1547,8 @@ input::-webkit-inner-spin-button {
     width: 13px;
     height: 13px;
     border: 1px solid var( --c-bt);
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-right: 10px;
 }
 .rbox input:checked ~ span::before{
@@ -1599,12 +1640,14 @@ img{
 .close i:nth-child(1){
     top: 10px;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 .close i:nth-child(2){
     top: 10px;
     -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
 }
 .filter{
     position: -webkit-sticky;
@@ -1636,7 +1679,8 @@ img{
     padding: 20px 40px;
     position: absolute;
     background: var(--c-bgp);
-    box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
+            box-shadow: 0px 0px 5px 0px var(--c-bs);
     border: 1px solid var(--c-b);
     display: none;
 }
@@ -1683,7 +1727,8 @@ img{
     visibility: visible;
 }
 input:-webkit-autofill {
-    box-shadow: 0 0 0 30px var(--c-bgp) inset;
+    -webkit-box-shadow: 0 0 0 30px var(--c-bgp) inset;
+            box-shadow: 0 0 0 30px var(--c-bgp) inset;
 }
 ::-webkit-scrollbar-track {
     background-color: transparent;
@@ -1854,7 +1899,9 @@ input:-webkit-autofill {
     .ctg-search .sub-mndp{
         width: 100%;
         -ms-flex-flow: column;
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-flow: column;
         overflow: auto;
     }
     .ctg-search .drop-search{
@@ -1986,7 +2033,8 @@ input:-webkit-autofill {
     }
     .product .pl .name-prod{
         overflow: hidden;
-        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
         white-space: nowrap;  
         margin: 0 5px;
     }
