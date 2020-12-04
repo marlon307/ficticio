@@ -533,11 +533,11 @@ h5, h4, h3, h2, h1{
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-bottom: 20px;
     height: 300px;
 }
@@ -1966,11 +1966,12 @@ input:-webkit-autofill {
         display: flex;
     }
     .product .product-img{
-        height: 180px;
+        margin-top: 10px;
+        height: 170px;
     }
     .product picture{
         width: 70%;
-        height: 170px;
+        height: 150px;
     }
     .product .cfg-pro{
         display: -webkit-box;
@@ -1995,13 +1996,13 @@ input:-webkit-autofill {
         margin-top: 20px;
     }
     .buy-bag{
-        margin: 15px auto;
+        margin: 10px auto;
         width: 150px;
         height: 45px;
         font-size: var(--font-10);
     }
     .product .price{
-        bottom: 55%;
+        bottom: 40%;
         font-size: var(--font-18);
     }
     .buy-bag .box-title{
