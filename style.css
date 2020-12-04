@@ -827,7 +827,7 @@ h5, h4, h3, h2, h1{
     margin: 0 10px;
     color: var(--c-bth);
 }
-.second-box .tabinfo span{
+.second-box .tabinfo h4{
     margin-right: 10px;
 }
 .second-box .tab-content{
