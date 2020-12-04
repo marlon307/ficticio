@@ -1986,7 +1986,7 @@ input:-webkit-autofill {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;  
-        margin: 0 10px;
+        margin: 0 5px;
     }
 
 
