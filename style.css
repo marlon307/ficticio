@@ -1978,9 +1978,19 @@ input:-webkit-autofill {
         display: flex;
     }
     .product .pl{
-        height: 90px;
-        font-size: var(--font-13);
+        text-align: center;
+        height: 100px;
+        font-size: var(--font-15);
     }
+    .product .pl .name-prod{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;  
+        margin: 0 10px;
+    }
+
+
+    
     .block-cont{
         margin-top: 20px;
     }
