@@ -1736,7 +1736,7 @@ input:-webkit-autofill {
         width: 100%;
     }
     .container-order{
-        width: auto;
+        width: 100%;
         border-top: 1px solid var(--c-b);
         border-left: none;
         padding-left: 0;
@@ -1751,6 +1751,7 @@ input:-webkit-autofill {
         flex-wrap: wrap;
     }
     .container-order .mo{
+        width: 100%;
         margin: 10px;
     }
     .content-bag{
@@ -1998,7 +1999,7 @@ input:-webkit-autofill {
     .buy-bag{
         margin: 0.5rem auto;
         width: 150px;
-        height: 45px;
+        height: 50px;
         font-size: var(--font-10);
     }
     .product .price{
