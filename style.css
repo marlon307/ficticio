@@ -1968,10 +1968,10 @@ input:-webkit-autofill {
         display: flex;
     }
     .product .product-img{
-        margin-top: 10px;
         height: 170px;
     }
     .product picture{
+        margin-top: 20px;
         width: 70%;
         height: 150px;
     }
