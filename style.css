@@ -1996,7 +1996,7 @@ input:-webkit-autofill {
         margin-top: 20px;
     }
     .buy-bag{
-        margin: .6rem auto;
+        margin: 0.5rem auto;
         width: 150px;
         height: 45px;
         font-size: var(--font-10);
