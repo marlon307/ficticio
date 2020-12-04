@@ -1170,7 +1170,6 @@ input::-webkit-inner-spin-button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 20px;
     height: 20px;
     font-size: var(--font-15);
 }
@@ -1216,8 +1215,8 @@ input::-webkit-inner-spin-button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 16px;
-    height: 16px;
+    width: 1.2rem;
+    height: 1.2rem;
     margin: 0 auto;
     border-radius: 50%;
     background: var(--c-p);
@@ -1228,8 +1227,8 @@ input::-webkit-inner-spin-button {
     display: -ms-flexbox;
     display: flex;
     color: var(--c-p);
-    width: 16px;
-    height: 16px;
+    width: 1.2rem;
+    height: 1.2rem;
     margin: 0 auto;
     border-radius: 50%;
     background: var(--c-bt);
@@ -1974,9 +1973,7 @@ input:-webkit-autofill {
         height: 150px;
     }
     .product .cfg-pro{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: none;
     }
     .product .pl{
         text-align: center;
