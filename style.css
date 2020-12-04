@@ -1176,7 +1176,7 @@ input::-webkit-inner-spin-button {
     font-size: var(--font-15);
 }
 .cfg-pro div:first-child{
-    margin-right: 1.5rem;
+    margin-right: 20px;
 }
  .cfg-pro ul{
     position: absolute;
