@@ -168,11 +168,11 @@ body{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     right: 0;
     height: 40px;
 }
@@ -1908,9 +1908,12 @@ input:-webkit-autofill {
     .ctg-search .drop-search{
         top: 20px;
         right: 10px;
+        width: 95% !important;
+        background: var(--c-p);
+        justify-content: flex-end;
     }
-    .ctg-search .drop-search:hover{
-        width: 95%;
+    .drop-search path{
+        stroke: var(--c-i);
     }
     .drop-mnu{
         position: fixed;
