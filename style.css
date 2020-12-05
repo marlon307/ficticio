@@ -1886,13 +1886,15 @@ input:-webkit-autofill {
         flex-direction: column;
     }
     .ctg-search .ctg-option{
-        padding: 30px 0;
+        padding: 10px 0;
+        margin: 10px 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
-    
     .ctg-search .container-ctg{
         width: 50%;
         height: 100%;
-        display: block;
         left: auto;
         right: 0;
         top: 90px;
