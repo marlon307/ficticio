@@ -436,7 +436,7 @@ h5, h4, h3, h2, h1{
     height: 30%;
 }
 .vitrine{
-    margin: 50px 70px;
+    margin: 50px 5%;
     display: block;
     text-align: center;
 }
@@ -488,7 +488,8 @@ h5, h4, h3, h2, h1{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 1480px;
+    margin-top: 50px;
+            width: 1480px;
     height: 250px;
     background: var(--c-bgp);
 }
@@ -496,6 +497,32 @@ h5, h4, h3, h2, h1{
 .target-disclosure-card picture{
     height: 100%;
 }
+.block-cardex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 980px;
+    height: 400px;
+    background: var(--c-bgp);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .sc{
     text-align: center;
     margin: 100px 12.5%;
@@ -1986,6 +2013,29 @@ input:-webkit-autofill {
     .vitrine{
         margin: 50px 5px;
     }
+    .disclosure{
+        gap: 2px;
+    }
+    .block-card{
+        width: 200px;
+        height: 220px;
+    }
+    .block-cardex{
+        width: 200px;
+        height: 220px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     .content-product .primary-box{
         gap: 0;
     }
