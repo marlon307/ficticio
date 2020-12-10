@@ -462,7 +462,7 @@ h5, h4, h3, h2, h1{
             justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 20px;
+    gap: 4px;
 }
 .block-card{
     display: -webkit-box;
@@ -489,7 +489,7 @@ h5, h4, h3, h2, h1{
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 50px;
-            width: 1480px;
+            width: 1450px;
     height: 250px;
     background: var(--c-bgp);
 }
@@ -507,7 +507,7 @@ h5, h4, h3, h2, h1{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 980px;
+    width: 966px;
     height: 400px;
     background: var(--c-bgp);
 }
