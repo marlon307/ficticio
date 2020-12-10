@@ -2013,15 +2013,12 @@ input:-webkit-autofill {
     .vitrine{
         margin: 50px 5px;
     }
-    .disclosure{
-        gap: 2px;
-    }
     .block-card{
-        width: 174px;
+        width: 170px;
         height: 200px;
     }
     .block-cardex{
-        width: 174px;
+        width: 170px;
         height: 200px;
     }
 
