@@ -462,7 +462,7 @@ h5, h4, h3, h2, h1{
             justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 70px;
+    gap: 20px;
 }
 .block-card{
     display: -webkit-box;
@@ -474,8 +474,8 @@ h5, h4, h3, h2, h1{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 485px;
-    height: 600px;
+    width: 480px;
+    height: 400px;
     background: var(--c-bgp);
 }
 .target-disclosure-card{
@@ -488,7 +488,7 @@ h5, h4, h3, h2, h1{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 90%;
+    width: 1480px;
     height: 250px;
     background: var(--c-bgp);
 }
