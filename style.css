@@ -431,12 +431,10 @@ body{
 h5, h4, h3, h2, h1{
     color: var(--c-tp);
 }
-
 .prop picture{
     width: 100%;
     height: auto;
 }
-
 .vitrine{
     margin: 50px 5%;
     display: block;
@@ -744,11 +742,13 @@ h5, h4, h3, h2, h1{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 30px;
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 01px solid var(--c-b);
 
+}
+.bar-btn .ico15:nth-child(2){
+    margin: 0 20px;
 }
 .panel .add-add{
     width: 150px;
