@@ -431,8 +431,10 @@ body{
 h5, h4, h3, h2, h1{
     color: var(--c-tp);
 }
+
 .prop picture{
     width: 100%;
+    height: auto;
 }
 .vitrine{
     margin: 50px 5%;
@@ -1969,7 +1971,6 @@ input:-webkit-autofill {
     .block-detail .detail{
         margin-bottom: 40px;
     }
-
 
 
 
