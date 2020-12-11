@@ -1338,13 +1338,13 @@ input::-webkit-inner-spin-button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 20px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: var(--font-13);
 }
 .link{
-    font-size: var(--font-13);
     color: #95656d;
+    margin-right: 20px;
 }
 .link:hover,
 .link2:hover{
