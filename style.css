@@ -434,7 +434,7 @@ h5, h4, h3, h2, h1{
 
 .prop picture{
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 
 .vitrine{
@@ -1997,10 +1997,6 @@ input:-webkit-autofill {
 
 
 
-
-    .prop picture{
-        height: 400px;
-    }
 
     
 
