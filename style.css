@@ -433,7 +433,7 @@ h5, h4, h3, h2, h1{
 }
 .prop picture{
     width: 100%;
-    height: 500px;
+    max-height: 700px;
 }
 .vitrine{
     margin: 50px 5%;
@@ -1602,7 +1602,6 @@ img{
     -o-object-fit: contain;
     object-fit: contain;
     max-width: 100%;
-    height: auto;
 }
 /*Padra de icones*/
 .ico15 svg{
@@ -1975,14 +1974,6 @@ input:-webkit-autofill {
 
 
 
-
-
-
-
-    .prop picture{
-        width: 100%;
-        max-height: 180px;
-    }
 
 
 
