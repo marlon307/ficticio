@@ -276,7 +276,7 @@ body{
     padding: 0 10px;
 }
 .mn-cfg ul li{
-    width: 200px;
+    min-width: 200px;
     margin: 10px 0;
 }
 .mn-cfg ul li a{
@@ -2041,7 +2041,7 @@ input:-webkit-autofill {
         height: 300px;
     }
     .content-product .container-prod{
-        width: 80%;
+        width: 90%;
     }
     .pac-img{
         display: none;
