@@ -1813,6 +1813,7 @@ input:-webkit-autofill {
     }
     .block-bag{
         width: 100%;
+        display: block;
     }
     .container-order{
         width: 100%;
@@ -1834,7 +1835,7 @@ input:-webkit-autofill {
         margin: 10px;
     }
     .content-bag{
-        padding: 40px 2%;
+        padding:0 2% 10% 2%;
     }
     .mp .content-order{
         width: auto;
