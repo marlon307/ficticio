@@ -1916,13 +1916,20 @@ input:-webkit-autofill {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        width: 8.8rem;
     }
     .ctg-search .ctg-option{
-        padding: 10px 0;
-        margin: 10px 20px;
         width: 100%;
-        display: flex;
-        align-items: center;
+        padding: 10px 0;
+        margin: 10px 10%;
+    }
+    .ctg-search li .ctg{
+        width: 100%; 
+        justify-content: left;
+    }
+    .mn-user:hover .set::after, 
+    .ctg-option:hover .set::after{
+        display: none;
     }
     .ctg-search .container-ctg{
         width: 50%;
@@ -1971,9 +1978,6 @@ input:-webkit-autofill {
     .block-detail .detail{
         margin-bottom: 40px;
     }
-
-
-
 
 
 
