@@ -1034,8 +1034,10 @@ h5, h4, h3, h2, h1{
     padding-bottom: 20px;
 }
 .box-select{
-    font-size: var(--font-13);
+    font-size: var(--font-15);
     padding-bottom: 20px;
+    position: relative;
+    cursor: pointer;
 }
 .box-content .title{
     padding-bottom: 10px;
@@ -1112,10 +1114,6 @@ h5, h4, h3, h2, h1{
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
-}
-.box-select{
-    position: relative;
-    cursor: pointer;
 }
 .box-select span{
     width: 100%;
