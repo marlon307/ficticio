@@ -1,5 +1,5 @@
 //Tab active
-function tabsrc() {
+/*function tabsrc() {
     const tabh = document.querySelectorAll('.mn-user');
     tabh[0].classList.add('active');
     if (tabh.length) {
@@ -16,4 +16,4 @@ function tabsrc() {
         });
     }
 }
-tabsrc();
+tabsrc();*/
