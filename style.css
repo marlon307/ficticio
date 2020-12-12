@@ -1908,7 +1908,6 @@ input:-webkit-autofill {
         display: none;
         z-index: 99;
     }
-    .opbt:hover .ctg-search,
     .menu:hover .ctg-search{
         display: -webkit-box;
         display: -ms-flexbox;
