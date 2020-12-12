@@ -53,7 +53,6 @@
     /*cor do titulo do produtos*/
     --c-tp: #505050;
 }
-
 *{
     border: none;
     padding: 0;
@@ -70,11 +69,6 @@
 }
 body{
     background: var(--c-p);
-}
-@media screen and(prefers-color-scheme: dark){
-   body{
-    --c-p: #000;   
-   }
 }
 .block{
     position: relative;
@@ -2218,3 +2212,22 @@ input:-webkit-autofill {
         margin: 20px;
     }
 }
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #010101;
+      color: #f0ece2;
+    }
+  
+    h1 {
+      color: #7579e7;
+    }
+  
+    h3 {
+      color: #69779b;
+    }
+  
+    img {
+      filter: brightness(0.9);
+    }
+  
+  }
