@@ -2145,7 +2145,7 @@ input:-webkit-autofill {
         font-size: var(--font-15);
     }
     .block-cards .card{
-        margin: 20px 0;
+        margin: 20px 10px;
         padding: 10px;
     }
     .info-prod .pl{
