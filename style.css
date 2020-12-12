@@ -27,6 +27,9 @@
     --font-20: 1.25rem;
     --font-25: 1.562rem;
     --font-35: 2.188rem;
+}
+@media (prefers-color-scheme: dark){
+    :root{
     /*Cor padrao*/
     --c-p:#fff;
     /*Cor da borda*/
@@ -53,6 +56,38 @@
     /*cor do titulo do produtos*/
     --c-tp: #505050;
 }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        /*Cor padrao*/
+        --c-p:#0f0f0f93;
+        /*Cor da borda*/
+        --c-b:#d2d2d2;
+        /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
+        --c-bt:#0c0c0c;
+        --c-bth: #202020;
+        /*cor do box shadow*/
+        --c-bs:#00000015;
+        /*texto tab*/
+        --c-tb:#303030 ;
+        /*Cor da barra de notificação*/
+        --c-nt:#ff5656;
+        /*cor de positvo*/
+        --c-ps:#58b64c;
+        /*cor de links*/
+        --c-l:#5890e4;
+        /*cor de alguns icones svg e fonte:hover*/
+        --c-i:#757575;
+        --c-ih: #454545;
+        --c-bbh:#e1e1e1;
+        /*background dos produtos*/
+        --c-bgp:#f3f3f3;
+        /*cor do titulo do produtos*/
+        --c-tp: #505050;
+    }
+  
+  }
 *{
     border: none;
     padding: 0;
@@ -2212,22 +2247,3 @@ input:-webkit-autofill {
         margin: 20px;
     }
 }
-@media (prefers-color-scheme: dark) {
-    body {
-      background-color: #010101;
-      color: #f0ece2;
-    }
-  
-    h1 {
-      color: #7579e7;
-    }
-  
-    h3 {
-      color: #69779b;
-    }
-  
-    img {
-      filter: brightness(0.9);
-    }
-  
-  }
