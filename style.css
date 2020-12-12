@@ -110,6 +110,7 @@ body{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+.menu .close,
 .opbt{
     display: none;
 }
@@ -1663,8 +1664,8 @@ img{
 }
 .close{
     position: absolute;
-    right: 45px;
-    bottom: 40px;
+    left: 5%;
+    bottom: 5%;
 }
 .close i{
     position: absolute;
@@ -1879,6 +1880,7 @@ input:-webkit-autofill {
         width: auto;
         margin: 0;
     }
+    .menu .close,
     .opbt{
         display: block; 
         padding: 10px 20px;
@@ -1985,7 +1987,9 @@ input:-webkit-autofill {
     .block-detail .detail{
         margin-bottom: 40px;
     }
-
+    .notify_{
+        top: 30px;
+    }
 
 
 
