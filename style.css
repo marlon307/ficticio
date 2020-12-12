@@ -61,7 +61,7 @@
 @media (prefers-color-scheme: dark) {
     :root{
         /*Cor padrao*/
-        --c-p:#0f0f0f93;
+        --c-p:#ff0000;
         /*Cor da borda*/
         --c-b:#d2d2d2;
         /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
