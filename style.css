@@ -53,11 +53,7 @@
     /*cor do titulo do produtos*/
     --c-tp: #505050;
 }
-@media screen and(prefers-color-scheme: dark){
-   :root{
-    --c-p: #000;   
-   }
-}
+
 *{
     border: none;
     padding: 0;
@@ -74,6 +70,11 @@
 }
 body{
     background: var(--c-p);
+}
+@media screen and(prefers-color-scheme: dark){
+   body{
+    --c-p: #000;   
+   }
 }
 .block{
     position: relative;
