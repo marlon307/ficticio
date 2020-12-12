@@ -205,6 +205,8 @@ body{
     background: var(--c-p);
     padding: 20px;
     display: none;
+    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
+    box-shadow: 0px 0px 5px 0px var(--c-bs);
 }
 .ctg-search .sub-mndp{
     width: 70%;
@@ -1916,7 +1918,7 @@ input:-webkit-autofill {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 8.8rem;
+        width: 35%;
     }
     .ctg-search .ctg-option{
         width: 100%;
@@ -1927,9 +1929,10 @@ input:-webkit-autofill {
         width: 100%; 
         justify-content: left;
     }
-    .mn-user:hover .set::after, 
-    .ctg-option:hover .set::after{
-        display: none;
+    .set::after{
+        transform: rotate(-90deg);
+        right: 0;
+        bottom: auto;
     }
     .ctg-search .container-ctg{
         width: 50%;
