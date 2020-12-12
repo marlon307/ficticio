@@ -255,7 +255,7 @@ body{
     display: none;
 }
 .mn-user .set::after{
-    bottom: -20px;
+    bottom: -15px;
 }
 .drop-mnu{
     position: absolute;
@@ -305,11 +305,11 @@ body{
     content: "";
     display: none;
     position: absolute;
-    bottom: 4px;
+    bottom: 12px;
     margin: 0 auto;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-bottom: 10px solid var(--c-p);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-bottom: 6px solid var(--c-p);
 }
 .mn-user:hover .set::after,
 .ctg-option:hover .set::after{
