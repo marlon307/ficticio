@@ -1875,7 +1875,7 @@ input:-webkit-autofill {
         gap: 50px;
     }
     .sc{
-        margin-top: -12%;
+        margin: -12% auto 100px auto;
     }
     .filter{
         margin-left: 1.75%;
