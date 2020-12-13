@@ -48,7 +48,7 @@
     /*cor de links*/
     --c-l:#5890e4;
     /*cor de alguns icones svg e fonte:hover*/
-    --c-i:#757575;
+    --c-i:#ababab;
     --c-ih: #454545;
     --c-bbh:#e1e1e1;
     /*background dos produtos*/
@@ -1070,6 +1070,7 @@ h5, h4, h3, h2, h1{
 .container-order .title{
     font-size: var(--font-20);
     padding-bottom: 20px;
+    color: var(--c-tp);
 }
 .box-content .title{
     padding-bottom: 10px;
@@ -1155,6 +1156,7 @@ input::-webkit-inner-spin-button {
     padding-bottom: 20px;
     position: relative;
     cursor: pointer;
+    color: var(--c-i);
 }
 .box-select span{
     width: 100%;
@@ -1165,7 +1167,7 @@ input::-webkit-inner-spin-button {
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 15px;
-    color: #95656d;
+    color:var(--c-tp);
 }
 .box-select .box-menu span::after {
     content: "";
@@ -1218,7 +1220,7 @@ input::-webkit-inner-spin-button {
 .buy-bag{
     margin: 20px auto;
     background: var( --c-bt);
-    color: var(--c-b);
+    color: var(--c-tp);
     bottom: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1439,7 +1441,7 @@ input::-webkit-inner-spin-button {
 .content-order .info p{
     font-size: var(--font-15);
     margin-bottom: 5px;
-    color: var(--c-ih);
+    color: var(--c-i);
 }
 .content-order .title{
     margin-bottom: 20px;
@@ -1449,7 +1451,7 @@ input::-webkit-inner-spin-button {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: var(--c-ih);
+    color: var(--c-i);
 }
 .content-order .statuso{
     margin-bottom: 50px;
