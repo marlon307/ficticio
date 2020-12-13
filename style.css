@@ -32,6 +32,8 @@
     :root{
     /*Cor padrao*/
     --c-p:#252525;
+    --c-d:#fff;
+    --c-db:#000;
     /*Cor da borda*/
     --c-b:#656565;
     /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
@@ -68,6 +70,8 @@
     :root{
         /*Cor padrao*/
         --c-p:#fff;
+        --c-d:#fff;
+        --c-db:#000;
         /*Cor da borda*/
         --c-b:#d2d2d2;
         /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
@@ -231,15 +235,15 @@ body{
 }
 .ctg-search .drop-search:hover{
     width: 100%;
-    background: var(--c-p);
+    background: var(--c-d);
 }
 .ctg-search input{
     height: 40px;
     width: 100%;
     padding: 0 10px;
     display: none;
-    background: var(--c-p);
-    color: var(--c-t1);
+    background: var(--c-d);
+    color: var(--c-db);
 }
 .drop-search:hover path,
 .ctg-search .drop-search:hover input,
