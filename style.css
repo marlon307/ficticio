@@ -28,7 +28,7 @@
     --font-25: 1.562rem;
     --font-35: 2.188rem;
 }
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: light){
     :root{
     /*Cor padrao*/
     --c-p:#252525;
@@ -63,7 +63,7 @@
 }
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     :root{
         /*Cor padrao*/
         --c-p:#fff;
@@ -1869,7 +1869,8 @@ img{
 }
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px var(--c-bgp) inset;
-            box-shadow: 0 0 0 30px var(--c-bgp) inset;
+    box-shadow: 0 0 0 30px var(--c-bgp) inset;
+    -webkit-text-fill-color: var(--c-t1) !important;
 }
 ::-webkit-scrollbar-track {
     background-color: transparent;
