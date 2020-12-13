@@ -56,10 +56,12 @@
     /*cor do titulo do produtos*/
     --c-tp: #dcdcdc;
     /*cor titulo*/
-    --c-t: #b9b9b9;
-    --c-t1: #eeeeee;
-    --c-t2: #dadada;
-    --c-t3: #cccccc;
+    --c-t0: #fff;
+    --c-t1: #D3D3D3;
+    --c-t2: #A8A8A8;
+    --c-t3: #7C7C7C;
+    --c-t4: #515151;
+    --c-t5: #252525;
 }
 }
 
@@ -91,10 +93,11 @@
         /*cor do titulo do produtos*/
         --c-tp: #f5f5f5;
         /*cor titulo*/
-        --c-t: #4d4d4d;
-        --c-t1: #1e1e1e;
-        --c-t2: #444444;
-        --c-t3: #555555;
+        --c-t0:#000;
+        --c-t1:#4d4d4d;
+        --c-t2:#1e1e1e;
+        --c-t3:#444444;
+        --c-t4:#555555;
     } 
   }
 *{
@@ -131,6 +134,15 @@ body{
     position: fixed;
     width: 100%;
     height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: -webkit-gradient(linear,left top, left bottom,from(#1e1e1e66), to(transparent));
     background: -o-linear-gradient(top,#1e1e1e66, transparent);
     background: linear-gradient(180deg,#1e1e1e66, transparent);
@@ -142,17 +154,6 @@ body{
 }
 .mn:hover{
     background: var(--c-bt);
-}
-.mn{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
 }
 .menu .close,
 .opbt{
@@ -171,7 +172,7 @@ body{
 }
 /*logo externa do menu*/
 .ccml path{
-    fill: var(--c-t1);
+    fill: var(--c-t0);
 }
 .ctg-search{
     position: relative;
@@ -288,7 +289,7 @@ body{
 .ctg-search .sub-mndp li a{
     width: 100%;
     padding: 10px;
-    color: var(--c-t3) !important;
+    color: var(--c-t1) !important;
 }
 .ctg-search .sub-mndp li a:hover{
     background: var(--c-bgp);
@@ -338,7 +339,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
-    color: var(--c-t3);
+    color: var(--c-t1);
 }
 .mn-cfg ul li a:hover{
     background: var(--c-bgp);
@@ -411,7 +412,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     height: 70px;
-    color: var(--c-t);
+    color: var(--c-t1);
 }
 .info-prod .pl span{
     width: 100%;
@@ -446,7 +447,7 @@ body{
 .cract-prod .size{
     margin-left: 10px;
     font-size: var(--font-13);
-    color: var(--c-t);
+    color: var(--c-t1);
 }
 .info-prod .value-prod{
     display: -webkit-box;
@@ -456,7 +457,7 @@ body{
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    color: var(--c-t);
+    color: var(--c-t1);
 }
 .delete-prod{
     position: absolute;
@@ -481,7 +482,7 @@ body{
     visibility: visible;
 }
 h5, h4, h3, h2, h1{
-    color: var(--c-t2);
+    color: var(--c-t1);
 }
 .prop picture{
     width: 100%;
@@ -500,7 +501,7 @@ h5, h4, h3, h2, h1{
 }
 .vitrine .sub-desc{
     margin-top: 10px;
-    color: var(--c-t3);
+    color: var(--c-t2);
 }
 .disclosure{
     display: -webkit-box;
@@ -652,7 +653,7 @@ h5, h4, h3, h2, h1{
     display: flex;
 }
 .product .pl{
-    color: var(--c-t);
+    color: var(--c-t1);
     height: 140px;
 }
 .product:hover .price,
@@ -762,7 +763,7 @@ h5, h4, h3, h2, h1{
 }
 .panel li p{
     width: 200px;
-    color: var(--c-t3);
+    color: var(--c-t2);
     margin: 0 20px;
 }
 .panel .block-cards{
@@ -788,7 +789,7 @@ h5, h4, h3, h2, h1{
 }
 .panel-card p{
     font-size: var(--font-13);
-    color: var(--c-t1);
+    color: var(--c-t2);
 }
 .bar-btn{
     display: -webkit-box;
@@ -861,7 +862,7 @@ h5, h4, h3, h2, h1{
 }
 .block-title{
     font-size: var(--font-25);
-    color: var(--c-t);
+    color: var(--c-t1);
     text-align: center;
 }
 .container .top-panel{
@@ -878,7 +879,7 @@ h5, h4, h3, h2, h1{
 }
 .storie{
     margin-top: 20px;
-    color: var(--c-t3);
+    color: var(--c-t2);
     font-size: var(--font-13);
 }
 .pac-img{
@@ -940,7 +941,7 @@ h5, h4, h3, h2, h1{
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
-    color: var(--c-t);
+    color: var(--c-t1);
 }
 .second-box .tabinfo span{
     margin-right: 10px;
@@ -990,7 +991,7 @@ h5, h4, h3, h2, h1{
     margin-top: 10px;
 }
 .block-detail article p{
-    color: var(--c-t3);
+    color: var(--c-t2);
     padding: 0 10px;
     line-height: 1.5;
 }
@@ -1073,7 +1074,7 @@ h5, h4, h3, h2, h1{
     padding-top: 20px;
     margin-right: 40px;
     font-size: var(--font-20);
-    color: var(--c-t1);
+    color: var(--c-t2);
     text-align: end;
 }
 .container-order{
@@ -1162,7 +1163,7 @@ h5, h4, h3, h2, h1{
 .box-number button{
     background: transparent;
     cursor: pointer;
-    color: var(--c-t2);
+    color: var(--c-t3);
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -1173,7 +1174,7 @@ input::-webkit-inner-spin-button {
     padding-bottom: 20px;
     position: relative;
     cursor: pointer;
-    color: var(--c-t3);
+    color: var(--c-t2);
 }
 .box-select span{
     width: 100%;
@@ -1184,7 +1185,7 @@ input::-webkit-inner-spin-button {
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 15px;
-    color:var(--c-t1);
+    color:var(--c-t2);
 }
 .box-select .box-menu span::after {
     content: "";
@@ -1236,7 +1237,7 @@ input::-webkit-inner-spin-button {
 /*Botão comprar - padrão para o resto do site*/
 .buy-bag{
     margin: 20px auto;
-    background: var( --c-bt);
+    background: var(--c-bt);
     color: var(--c-tp);
     bottom: 20px;
     display: -webkit-box;
@@ -1282,7 +1283,7 @@ input::-webkit-inner-spin-button {
 }
 /*Configuraçoes do produto cor e tamanho*/
 .cfg-pro{
-    color: var(--c-t);
+    color: var(--c-t1);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1444,6 +1445,7 @@ input::-webkit-inner-spin-button {
             justify-content: space-between;
     margin-bottom: 50px;
     font-size: var(--font-20);
+    color: var(--c-t1);
 }
 .content-order .opl{
     display: -webkit-box;
@@ -1458,7 +1460,7 @@ input::-webkit-inner-spin-button {
 .content-order .info p{
     font-size: var(--font-15);
     margin-bottom: 5px;
-    color: var(--c-i);
+    color: var(--c-t2);
 }
 .content-order .title{
     margin-bottom: 20px;
@@ -1468,7 +1470,7 @@ input::-webkit-inner-spin-button {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: var(--c-i);
+    color: var(--c-t1);
 }
 .content-order .statuso{
     margin-bottom: 50px;
@@ -1528,7 +1530,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     font-size: var(--font-13);
     top: 40px;
-    color: var(--c-tp);
+    color: var(--c-t2);
 }
 .content-order .osl{
     padding-top: 30px;
@@ -1546,7 +1548,7 @@ input::-webkit-inner-spin-button {
     color: var(--c-l);
 }
 .genero-user{
-    color: var(--c-t3);
+    color: var(--c-t2);
 }
 /*Botão adicionar - padrão para o resto do site*/
 .add-add{
@@ -1560,16 +1562,16 @@ input::-webkit-inner-spin-button {
     height: 30px;
     background: var(--c-bt);
     cursor: pointer;
-    color: var(--c-b);
+    color: var(--c-bbh);
 }
 .add-add:hover{
     background: var(--c-bth);
-    color: var(--c-bbh);
+    color: var(--c-tp);
 }
 .add-add span{
     margin: 0 auto;
     font-size: var(--font-13);
-    color: #e1e1e1;
+    color: var(--c-bbh);
     text-align: center;
 }
 /*Caixa de teto - padrão para o resto do site*/
@@ -1612,7 +1614,7 @@ input::-webkit-inner-spin-button {
     -webkit-transition: .2s;
     -o-transition: .2s;
     transition: .2s;
-    color: var(--c-t);
+    color: var(--c-t2);
 }
 .box-text .itb:placeholder-shown ~ label{
     top: 5px;
