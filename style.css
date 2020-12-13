@@ -28,7 +28,7 @@
     --font-25: 1.562rem;
     --font-35: 2.188rem;
 }
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: dark){
     :root{
     /*Cor padrao*/
     --c-p:#252525;
@@ -58,7 +58,7 @@
 }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root{
         /*Cor padrao*/
         --c-p:#fff;
