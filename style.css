@@ -789,7 +789,7 @@ h5, h4, h3, h2, h1{
 }
 .panel-card p{
     font-size: var(--font-13);
-    color: var(--c-t3);
+    color: var(--c-t1);
 }
 .bar-btn{
     display: -webkit-box;
@@ -814,7 +814,9 @@ h5, h4, h3, h2, h1{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 10px;
+}
+.panel-card .sl p{
+    margin-left: 10px;
 }
 .content-product .primary-box{
     position: relative;
@@ -1683,7 +1685,7 @@ img{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    stroke: var(--c-t);
+    stroke: var(--c-i);
 }
 .ico30{
     display: -webkit-box;
