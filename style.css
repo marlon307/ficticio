@@ -843,8 +843,10 @@ h5, h4, h3, h2, h1{
         -ms-flex-pack: center;
             justify-content: center;
 }
-.block-cont .block-title{
+.block-title{
     font-size: var(--font-25);
+    color: var(--c-tp);
+    text-align: center;
 }
 .container .top-panel{
     border-bottom: 1px solid var(--c-b);
@@ -922,7 +924,7 @@ h5, h4, h3, h2, h1{
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
-    color: var(--c-tb);
+    color: var(--c-tp);
 }
 .second-box .tabinfo span{
     margin-right: 10px;
@@ -957,20 +959,16 @@ h5, h4, h3, h2, h1{
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
+.block-detail .block-title{
+    margin-top: 20px;
+}
 .block-detail .detail{
     width: 350px;
-}
-
-.block-detail .block-title{
-    text-align: center;
-    padding: 20px 0;
-    font-size: var(--font-25);
 }
 .block-detail picture{
     width: 150px;
     height: 170px;
-    padding-bottom: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .block-detail article{
     margin-top: 10px;
@@ -1663,7 +1661,7 @@ img{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    stroke: var(--c-tb);
+    stroke: var(--c-tp);
 }
 .ico30{
     display: -webkit-box;
