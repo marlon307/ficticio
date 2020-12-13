@@ -169,6 +169,10 @@ body{
 .logo{
     margin-top: 50px;
 }
+/*logo externa do menu*/
+.ccml path{
+    fill: var(--c-t1);
+}
 .ctg-search{
     position: relative;
     display: -webkit-box;
@@ -612,7 +616,7 @@ h5, h4, h3, h2, h1{
     cursor: pointer;
 }
 .product-fav input:checked ~ span path{
-    stroke: var(--c-bt);
+    stroke: var(--c-t1);
 }
 .product .ico30{
     display: none;
@@ -1403,7 +1407,7 @@ input::-webkit-inner-spin-button {
 .link2:hover{
     text-decoration: underline;
 }
-.link2 p{
+.link2{
     margin-top: 20px;
     font-size: var(--font-15);
     color: var(--c-t3);
@@ -1871,7 +1875,7 @@ input:-webkit-autofill {
         gap: 50px;
     }
     .sc{
-        margin: -12% auto;
+        margin-top: -12%;
     }
     .filter{
         margin-left: 1.75%;
