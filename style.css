@@ -712,7 +712,7 @@ h5, h4, h3, h2, h1{
         -ms-flex-align: center;
             align-items: center;
     padding-left: 20px;
-    color:var(--c-ih);
+    color:var(--c-t1);
     gap: 20px;
     cursor: pointer;
 }
@@ -737,7 +737,7 @@ h5, h4, h3, h2, h1{
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 10px;
+        
 }
 .panel li{
     margin-top: 20px;
@@ -759,7 +759,7 @@ h5, h4, h3, h2, h1{
 }
 .panel li p{
     width: 200px;
-    color: var(--c-bth);
+    color: var(--c-t3);
     margin: 0 20px;
 }
 .panel .block-cards{
@@ -785,6 +785,7 @@ h5, h4, h3, h2, h1{
 }
 .panel-card p{
     font-size: var(--font-13);
+    color: var(--c-t3);
 }
 .bar-btn{
     display: -webkit-box;
@@ -1151,10 +1152,12 @@ h5, h4, h3, h2, h1{
     background: transparent;
     text-align: center;
     cursor: pointer;
+    color: var(--c-t2);
 }
 .box-number button{
     background: transparent;
     cursor: pointer;
+    color: var(--c-t2);
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -1536,6 +1539,9 @@ input::-webkit-inner-spin-button {
 }
 .top-itens a{
     color: var(--c-l);
+}
+.genero-user{
+    color: var(--c-t3);
 }
 /*Botão adicionar - padrão para o resto do site*/
 .add-add{
