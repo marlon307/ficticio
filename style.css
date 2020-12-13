@@ -55,6 +55,11 @@
     --c-bgp:#353535;
     /*cor do titulo do produtos*/
     --c-tp: #dcdcdc;
+    /*cor titulo*/
+    --c-t: #b9b9b9;
+    --c-t1: #eeeeee;
+    --c-t2: #dadada;
+    --c-t3: #cccccc;
 }
 }
 
@@ -84,7 +89,12 @@
         /*background dos produtos*/
         --c-bgp:#f3f3f3;
         /*cor do titulo do produtos*/
-        --c-tp: #505050;
+        --c-tp: #f5f5f5;
+        /*cor titulo*/
+        --c-t: #4d4d4d;
+        --c-t1: #1e1e1e;
+        --c-t2: #444444;
+        --c-t3: #555555;
     } 
   }
 *{
@@ -225,7 +235,7 @@ body{
     padding: 0 10px;
     display: none;
     background: var(--c-p);
-    color: var(--c-tp);
+    color: var(--c-t1);
 }
 .drop-search:hover path,
 .ctg-search .drop-search:hover input,
@@ -242,8 +252,8 @@ body{
     background: var(--c-p);
     padding: 20px;
     display: none;
-    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
-    box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
+    box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
 .ctg-search .sub-mndp{
     width: 70%;
@@ -274,7 +284,7 @@ body{
 .ctg-search .sub-mndp li a{
     width: 100%;
     padding: 10px;
-    color: var(--c-tp) !important;
+    color: var(--c-t3) !important;
 }
 .ctg-search .sub-mndp li a:hover{
     background: var(--c-bgp);
@@ -300,16 +310,16 @@ body{
     width: 330px;
     right: 0;
     background: var(--c-p);
-    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
-            box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
+            box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
 .mn-cfg{
     position: absolute;
     display: none;
     right: 0;
     background: var(--c-p);
-    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
-            box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
+            box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
 .mn-cfg ul{
     padding: 0 10px;
@@ -325,7 +335,7 @@ body{
     -ms-flex-line-pack: center;
     align-content: center;
     padding: 20px;
-    color: var(--c-tp);
+    color: var(--c-t3);
 }
 .mn-cfg ul li a:hover{
     background: var(--c-bgp);
@@ -398,7 +408,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     height: 70px;
-    color: var(--c-tp);
+    color: var(--c-t);
 }
 .info-prod .pl span{
     width: 100%;
@@ -433,7 +443,7 @@ body{
 .cract-prod .size{
     margin-left: 10px;
     font-size: var(--font-13);
-    color: var(--c-tp);
+    color: var(--c-t);
 }
 .info-prod .value-prod{
     display: -webkit-box;
@@ -443,7 +453,7 @@ body{
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    color: var(--c-tp);
+    color: var(--c-t);
 }
 .delete-prod{
     position: absolute;
@@ -468,7 +478,7 @@ body{
     visibility: visible;
 }
 h5, h4, h3, h2, h1{
-    color: var(--c-tp);
+    color: var(--c-t2);
 }
 .prop picture{
     width: 100%;
@@ -487,7 +497,7 @@ h5, h4, h3, h2, h1{
 }
 .vitrine .sub-desc{
     margin-top: 10px;
-    color: var(--c-tp);
+    color: var(--c-t3);
 }
 .disclosure{
     display: -webkit-box;
@@ -639,7 +649,7 @@ h5, h4, h3, h2, h1{
     display: flex;
 }
 .product .pl{
-    color: var(--c-tp);
+    color: var(--c-t);
     height: 140px;
 }
 .product:hover .price,
@@ -845,7 +855,7 @@ h5, h4, h3, h2, h1{
 }
 .block-title{
     font-size: var(--font-25);
-    color: var(--c-tp);
+    color: var(--c-t);
     text-align: center;
 }
 .container .top-panel{
@@ -862,7 +872,7 @@ h5, h4, h3, h2, h1{
 }
 .storie{
     margin-top: 20px;
-    color: var(--c-tp);
+    color: var(--c-t3);
     font-size: var(--font-13);
 }
 .pac-img{
@@ -924,7 +934,7 @@ h5, h4, h3, h2, h1{
     display: flex;
     padding: 20px 10px;
     margin: 0 10px;
-    color: var(--c-tp);
+    color: var(--c-t);
 }
 .second-box .tabinfo span{
     margin-right: 10px;
@@ -974,7 +984,7 @@ h5, h4, h3, h2, h1{
     margin-top: 10px;
 }
 .block-detail article p{
-    color: var(--c-tp);
+    color: var(--c-t3);
     padding: 0 10px;
     line-height: 1.5;
 }
@@ -1057,6 +1067,7 @@ h5, h4, h3, h2, h1{
     padding-top: 20px;
     margin-right: 40px;
     font-size: var(--font-20);
+    color: var(--c-t1);
     text-align: end;
 }
 .container-order{
@@ -1068,7 +1079,7 @@ h5, h4, h3, h2, h1{
 .container-order .title{
     font-size: var(--font-20);
     padding-bottom: 20px;
-    color: var(--c-tp);
+    color: var(--c-t1);
 }
 .box-content .title{
     padding-bottom: 10px;
@@ -1154,7 +1165,7 @@ input::-webkit-inner-spin-button {
     padding-bottom: 20px;
     position: relative;
     cursor: pointer;
-    color: var(--c-i);
+    color: var(--c-t3);
 }
 .box-select span{
     width: 100%;
@@ -1165,7 +1176,7 @@ input::-webkit-inner-spin-button {
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 15px;
-    color:var(--c-tp);
+    color:var(--c-t1);
 }
 .box-select .box-menu span::after {
     content: "";
@@ -1192,8 +1203,8 @@ input::-webkit-inner-spin-button {
     position: absolute;
     background: var(--c-p);
     padding: 20px;
-    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
-            box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
+            box-shadow: 0px 0px 15px 0px var(--c-bs);
     max-height: 250px;
     overflow: auto;
     z-index: 1;
@@ -1263,7 +1274,7 @@ input::-webkit-inner-spin-button {
 }
 /*Configuraçoes do produto cor e tamanho*/
 .cfg-pro{
-    color: var(--c-tp);
+    color: var(--c-t);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1382,7 +1393,7 @@ input::-webkit-inner-spin-button {
     font-size: var(--font-13);
 }
 .link{
-    color: #95656d;
+    color: var(--c-t3);
     margin-right: 20px;
 }
 .link:hover,
@@ -1392,7 +1403,7 @@ input::-webkit-inner-spin-button {
 .link2 p{
     margin-top: 20px;
     font-size: var(--font-15);
-    color: #95656d;
+    color: var(--c-t3);
 }
 .acp,.aep{
     width: 400px;
@@ -1564,6 +1575,7 @@ input::-webkit-inner-spin-button {
     height: 13px;
     border-bottom: 1px solid #909090;
     padding: 10px;
+    color: var(--c-t1);
     background: transparent;
 }
 .box-text .itb::-webkit-input-placeholder{
@@ -1589,7 +1601,7 @@ input::-webkit-inner-spin-button {
     -webkit-transition: .2s;
     -o-transition: .2s;
     transition: .2s;
-    color: var(--c-tp);
+    color: var(--c-t);
 }
 .box-text .itb:placeholder-shown ~ label{
     top: 5px;
@@ -1661,7 +1673,7 @@ img{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    stroke: var(--c-tp);
+    stroke: var(--c-t);
 }
 .ico30{
     display: -webkit-box;
@@ -1752,8 +1764,8 @@ img{
     padding: 20px 40px;
     position: absolute;
     background: var(--c-bgp);
-    -webkit-box-shadow: 0px 0px 5px 0px var(--c-bs);
-            box-shadow: 0px 0px 5px 0px var(--c-bs);
+    -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
+            box-shadow: 0px 0px 15px 0px var(--c-bs);
     border: 1px solid var(--c-b);
     display: none;
 }
