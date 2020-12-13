@@ -1406,7 +1406,6 @@ input::-webkit-inner-spin-button {
 }
 .link{
     color: var(--c-t3);
-    margin-right: 20px;
 }
 .link:hover,
 .link2:hover{
