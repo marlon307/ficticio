@@ -31,9 +31,9 @@
 @media (prefers-color-scheme: light){
     :root{
     /*Cor padrao*/
-    --c-p:#fff;
+    --c-p:#252525;
     /*Cor da borda*/
-    --c-b:#d2d2d2;
+    --c-b:#656565;
     /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
     --c-bt:#0c0c0c;
     --c-bth: #202020;
@@ -52,16 +52,16 @@
     --c-ih: #454545;
     --c-bbh:#e1e1e1;
     /*background dos produtos*/
-    --c-bgp:#f3f3f3;
+    --c-bgp:#353535;
     /*cor do titulo do produtos*/
-    --c-tp: #505050;
+    --c-tp: #dcdcdc;
 }
 }
 
 @media (prefers-color-scheme: dark) {
     :root{
         /*Cor padrao*/
-        --c-p:#ff0000;
+        --c-p:#fff;
         /*Cor da borda*/
         --c-b:#d2d2d2;
         /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
@@ -85,8 +85,7 @@
         --c-bgp:#f3f3f3;
         /*cor do titulo do produtos*/
         --c-tp: #505050;
-    }
-  
+    } 
   }
 *{
     border: none;
@@ -197,7 +196,7 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: var(--c-p);
+    color: var(--c-tp);
 }
 .ctg-search .drop-search{
     position: absolute;
@@ -225,6 +224,8 @@ body{
     width: 100%;
     padding: 0 10px;
     display: none;
+    background: var(--c-p);
+    color: var(--c-tp);
 }
 .drop-search:hover path,
 .ctg-search .drop-search:hover input,
@@ -1079,7 +1080,7 @@ h5, h4, h3, h2, h1{
 .footer-r{
     position: relative;
     background: var(--c-bt);
-    color: var(--c-p);
+    color: var(--c-tp);
 }
 .footer-info, .footer-about{
     display: -webkit-box;
@@ -1099,7 +1100,7 @@ h5, h4, h3, h2, h1{
     width: 80px;
 }
 .footer-r p{
-    color: var(--c-p);
+    color: var(--c-tp);
     margin: 10px 20px;
     font-size: var(--font-15);
 }
@@ -1112,7 +1113,7 @@ h5, h4, h3, h2, h1{
     width: 25px;
 }
 .footer-r a{
-    color: var(--c-p);
+    color: var(--c-tp);
 }
 .empresa, .payment, .society, .securyt{
     margin: 50px 20px;
