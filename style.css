@@ -2201,6 +2201,7 @@ input:-webkit-autofill {
         width: 70%;
         height: 150px;
     }
+    .product:hover .buy-bag,
     .product:hover .cfg-pro,
     .product .cfg-pro{
         display: none;
@@ -2228,6 +2229,10 @@ input:-webkit-autofill {
         width: 150px;
         height: 50px;
         font-size: var(--font-10);
+    }
+    .product:hover .price{
+        visibility: visible;
+        bottom: -1.15rem;
     }
     .product .price{
         bottom: 3rem;
