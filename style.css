@@ -1727,14 +1727,15 @@ img{
 }
 .close{
     position: absolute;
-    left: 5%;
-    bottom: 5%;
+    left: 0;
+    bottom: 3%;
+    cursor: pointer;
 }
 .close i{
     position: absolute;
     width: 20px;
     height: 1px;
-    background: var(--c-ih);
+    background: var(--c-t4);
     display: block;
     border-radius: 50px;
 }
