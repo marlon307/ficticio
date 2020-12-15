@@ -1097,6 +1097,10 @@ h5, h4, h3, h2, h1{
 }
 .top-location a{
     color: var(--c-i);
+    margin: 0 10px;
+}
+.top-location{
+    color: var(--c-t4);
 }
 .footer-r{
     position: relative;
@@ -1408,6 +1412,9 @@ input::-webkit-inner-spin-button {
 .link{
     color: var(--c-t3);
 }
+.link:nth-child(2){
+    margin-left: 20px;
+}
 .link:hover,
 .link2:hover{
     text-decoration: underline;
@@ -1705,6 +1712,11 @@ img{
     height: 30px;
     stroke:var(--c-i);
     cursor: pointer;
+}
+.ico15 svg:hover,
+.ico30 svg:hover,
+.ico20 svg:hover{
+    stroke: var(--c-t3);
 }
 .notify_{
     position: absolute;
