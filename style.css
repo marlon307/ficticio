@@ -945,6 +945,7 @@ h5, h4, h3, h2, h1{
     padding: 20px 10px;
     margin: 0 10px;
     color: var(--c-t1);
+    cursor: pointer;
 }
 .second-box .tabinfo span{
     margin-right: 10px;
@@ -1979,7 +1980,8 @@ input:-webkit-autofill {
         align-items: center;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-      justify-content: center;
+        justify-content: center;
+        box-shadow: 0 30px 20px 20px #ffffff40;
     }
     .menu:first-child, .logo{
         display: none;
