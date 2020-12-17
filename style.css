@@ -1129,9 +1129,6 @@ h5, h4, h3, h2, h1{
     margin: 10px 20px;
     font-size: var(--font-15);
 }
-.footer-r a:hover{
-    text-decoration: underline;
-}
 .footer-r .ico-s {
     display: inline-block;
     font-family: fontello;
