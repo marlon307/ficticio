@@ -2010,7 +2010,7 @@ img {
 .filter {
     position: -webkit-sticky;
     position: sticky;
-    top: 55%;
+    top: 60%;
     z-index: 99;
     margin-left: 5.75%;
     width: 70px;
@@ -2067,7 +2067,7 @@ img {
 }
 
 .filter-drop .contain {
-    width: 150px;
+    width: 100px;
 }
 
 .modal {
