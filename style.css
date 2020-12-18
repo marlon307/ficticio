@@ -2034,7 +2034,7 @@ img {
 }
 
 .filter-drop {
-    bottom: 22px;
+    bottom: 0;
     left: 0px;
     padding: 20px 40px;
     position: absolute;
@@ -2059,7 +2059,6 @@ img {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 20px;
 }
 
 .filter-drop .sl {
@@ -2067,7 +2066,7 @@ img {
 }
 
 .filter-drop .contain {
-    width: 100px;
+    width: 120px;
 }
 
 .modal {
