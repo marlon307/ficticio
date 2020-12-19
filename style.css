@@ -1009,7 +1009,10 @@ h1 {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 40px;
+}
+
+.block-img {
+    margin-top: 40px;
 }
 
 .block-img picture {
@@ -2110,7 +2113,7 @@ input:-webkit-autofill {
     border-radius: 5px;
 }
 
-@media (max-width: 1650px) and (min-width: 768px) {
+@media (max-width: 1650px) {
     .menu {
         margin: 0 20px;
     }
@@ -2120,7 +2123,6 @@ input:-webkit-autofill {
     }
 
     .content-product .primary-box {
-        gap: 50px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
@@ -2136,7 +2138,6 @@ input:-webkit-autofill {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        gap: 50px;
     }
 
     .second-box {
@@ -2415,18 +2416,8 @@ input:-webkit-autofill {
         margin: 0;
     }
 
-
-
-
-
-
-
-
-
-
-
     .content-product .primary-box {
-        gap: 0;
+        flex-direction: column;
     }
 
     .content-product .container-img {
