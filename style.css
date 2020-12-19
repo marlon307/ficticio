@@ -585,6 +585,8 @@ h1 {
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .block-card {
@@ -1068,7 +1070,6 @@ h1 {
     display: none;
     position: absolute;
     left: 0;
-    padding: 40px 0;
 }
 
 .itab:checked~.tabinfo {
@@ -1092,7 +1093,6 @@ h1 {
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    gap: 5%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -1102,6 +1102,7 @@ h1 {
 }
 
 .block-detail .detail {
+    margin: 40px 3% 0 3%;
     width: 350px;
 }
 
@@ -2114,15 +2115,16 @@ input:-webkit-autofill {
         margin: 0 20px;
     }
 
+    .menu:first-child {
+        display: none;
+    }
+
     .content-product .primary-box {
         gap: 50px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
-    .content-product .container-img {
-        width: 35%;
-    }
 
     .content-product .container-prod {
         width: 35%;
@@ -2137,8 +2139,20 @@ input:-webkit-autofill {
         gap: 50px;
     }
 
-    .sc {
-        margin: -12% auto 100px auto;
+    .second-box {
+        height: 1050px;
+    }
+
+    .block-detail .detail {
+        margin: 40px 2% 0 2%;
+    }
+
+    .block-cardex {
+        width: 49%;
+    }
+
+    .block-card {
+        width: 49%;
     }
 }
 
@@ -2346,10 +2360,6 @@ input:-webkit-autofill {
         font-size: var(--font-15);
     }
 
-    .block-detail .detail {
-        margin-bottom: 40px;
-    }
-
     .notify_ {
         top: 30px;
     }
@@ -2401,6 +2411,9 @@ input:-webkit-autofill {
         height: 200px;
     }
 
+    .sc {
+        margin: 0;
+    }
 
 
 
