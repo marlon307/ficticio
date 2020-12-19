@@ -2110,7 +2110,7 @@ input:-webkit-autofill {
     border-radius: 5px;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1650px) and (min-width: 768px) {
     .menu {
         margin: 0 20px;
     }
@@ -2156,7 +2156,7 @@ input:-webkit-autofill {
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 767px) {
     .content-bag {
         display: block;
     }
