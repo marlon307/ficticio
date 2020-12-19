@@ -934,7 +934,6 @@ h1 {
     justify-content: center;
     padding: 7.9% 0;
     background: var(--c-bgp);
-    gap: 100px;
 }
 
 .content-product .container-img {
@@ -965,6 +964,7 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin: 0 5%;
 }
 
 .block-title {
@@ -1013,6 +1013,7 @@ h1 {
 
 .block-img {
     margin-top: 40px;
+    width: 300px;
 }
 
 .block-img picture {
