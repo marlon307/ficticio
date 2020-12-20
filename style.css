@@ -2386,6 +2386,7 @@ input:-webkit-autofill {
         -ms-flex-direction: column;
         flex-direction: column;
         width: 35%;
+        margin-top: 15%;
     }
 
     .ctg-search .ctg-option {
