@@ -2154,7 +2154,7 @@ input:-webkit-autofill {
     }
 
     .block-card {
-        width: 49%;
+        width: 40%;
     }
 }
 
@@ -2209,6 +2209,10 @@ input:-webkit-autofill {
 
     .content-order .opl .info {
         margin-right: 20px;
+    }
+
+    .block-card {
+        width: 49%;
     }
 }
 
