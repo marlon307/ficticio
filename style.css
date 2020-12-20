@@ -2123,11 +2123,14 @@ input:-webkit-autofill {
         display: none;
     }
 
+    .content-product .container-img {
+        width: 40%;
+    }
+
     .content-product .primary-box {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
-
 
     .content-product .container-prod {
         width: 35%;
@@ -2154,11 +2157,19 @@ input:-webkit-autofill {
     }
 
     .block-card {
-        width: 40%;
+        width: 49%;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .content-product .container-img {
+        width: 40%;
+    }
+
+    .content-product .container-prod {
+        width: 40%;
+    }
+
     .content-bag {
         display: block;
     }
@@ -2209,10 +2220,6 @@ input:-webkit-autofill {
 
     .content-order .opl .info {
         margin-right: 20px;
-    }
-
-    .block-card {
-        width: 49%;
     }
 }
 
