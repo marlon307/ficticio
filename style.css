@@ -2227,7 +2227,88 @@ input:-webkit-autofill {
     }
 }
 
-@media screen and (min-device-width: 280px) and (max-device-width: 823px) {
+@media screen and (max-width: 823px) {
+    .product {
+        width: 32%;
+        height: 300px;
+    }
+
+    .product .product-fav {
+        margin: 10px;
+    }
+
+    .product .product-fav svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product .ico30 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .product .product-img {
+        height: 170px;
+    }
+
+    .product picture {
+        margin-top: 20px;
+        width: 70%;
+        height: 150px;
+    }
+
+    .product:hover .buy-bag,
+    .product:hover .cfg-pro,
+    .product .cfg-pro {
+        display: none;
+    }
+
+    .product .pl {
+        text-align: center;
+        height: 110px;
+        font-size: var(--font-15);
+    }
+
+    .product .pl .name-prod {
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 0 5px;
+    }
+
+    .block-cont {
+        margin-top: 20px;
+    }
+
+    .buy-bag {
+        margin: 0.5rem auto;
+        width: 150px;
+        height: 50px;
+        font-size: var(--font-10);
+    }
+
+    .product:hover .price {
+        visibility: visible;
+        bottom: -1.15rem;
+    }
+
+    .product .price {
+        bottom: 3rem;
+        font-size: var(--font-18);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .product {
+        width: 48%;
+        height: 300px;
+    }
+}
+
+/*Menu Responsivo*/
+@media screen and (min-width: 280px) and (max-width: 823px) {
     .mn {
         top: auto;
         bottom: 0;
@@ -2381,39 +2462,6 @@ input:-webkit-autofill {
         top: 30px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .vitrine {
         margin: 50px 5px;
     }
@@ -2458,79 +2506,6 @@ input:-webkit-autofill {
     .btn-dmn svg {
         width: 15px;
         height: 15px;
-    }
-
-    .product {
-        width: 48%;
-        height: 100%;
-    }
-
-    .product .product-fav {
-        margin: 10px;
-    }
-
-    .product .product-fav svg {
-        width: 20px;
-        height: 20px;
-    }
-
-    .product .ico30 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-
-    .product .product-img {
-        height: 170px;
-    }
-
-    .product picture {
-        margin-top: 20px;
-        width: 70%;
-        height: 150px;
-    }
-
-    .product:hover .buy-bag,
-    .product:hover .cfg-pro,
-    .product .cfg-pro {
-        display: none;
-    }
-
-    .product .pl {
-        text-align: center;
-        height: 110px;
-        font-size: var(--font-15);
-    }
-
-    .product .pl .name-prod {
-        overflow: hidden;
-        -o-text-overflow: ellipsis;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        margin: 0 5px;
-    }
-
-
-
-    .block-cont {
-        margin-top: 20px;
-    }
-
-    .buy-bag {
-        margin: 0.5rem auto;
-        width: 150px;
-        height: 50px;
-        font-size: var(--font-10);
-    }
-
-    .product:hover .price {
-        visibility: visible;
-        bottom: -1.15rem;
-    }
-
-    .product .price {
-        bottom: 3rem;
-        font-size: var(--font-18);
     }
 
     .buy-bag .box-title {
