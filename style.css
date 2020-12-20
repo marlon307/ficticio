@@ -644,7 +644,7 @@ h1 {
 
 .sc {
     text-align: center;
-    margin: 120px 12.5%;
+    margin: 120px 0;
 }
 
 .sc .title {
@@ -2229,7 +2229,7 @@ input:-webkit-autofill {
 
 @media screen and (max-width: 823px) {
     .product {
-        width: 32%;
+        width: 30%;
         height: 300px;
     }
 
@@ -2477,7 +2477,7 @@ input:-webkit-autofill {
     }
 
     .sc {
-        margin: 0;
+        margin: 0 0 100px 0;
     }
 
     .content-product .primary-box {
