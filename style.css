@@ -1982,6 +1982,7 @@ img {
     justify-content: center;
     background-color: var(--c-d);
     border-radius: 50%;
+    margin-top: 1%;
 }
 
 .close i {
@@ -2026,19 +2027,14 @@ img {
     height: 100%;
     background: #fffffffc;
     z-index: 999;
-    overflow: auto;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
+    flex-direction: column;
     visibility: hidden;
     display: none;
 }
 
 .active {
-    display: block;
+    display: flex;
     visibility: visible;
 }
 
