@@ -268,8 +268,7 @@ body {
 }
 
 .drop-search:hover path,
-.ctg-search .drop-search:hover input,
-.ctg-search .ctg-option:hover .container-ctg {
+.ctg-search .drop-search:hover input {
     display: block;
     stroke: var(--c-i);
 }
@@ -286,6 +285,13 @@ body {
     -webkit-box-shadow: 0px 0px 15px 0px var(--c-bs);
     box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
+
+[data-event].active [data-expand] {
+    display: block;
+}
+
+
+
 
 .ctg-search .sub-mndp {
     width: 70%;
@@ -2034,7 +2040,7 @@ img {
 }
 
 .active {
-    display: flex;
+    display: block;
     visibility: visible;
 }
 

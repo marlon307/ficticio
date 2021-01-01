@@ -1,4 +1,4 @@
-const paragrafos = document.querySelectorAll('.drop-dow ul p');
+/*const paragrafos = document.querySelectorAll('.drop-dow ul p');
 
 const totalcaracteres = Array.prototype.reduce.call(paragrafos, (acumulador, item) => {
     return acumulador + item.innerText.length;
@@ -44,4 +44,4 @@ const configuração = {
     heigth: 600,
     background: '#fff333'
 }
-Object.freeze(configuração);
+Object.freeze(configuração);*/
