@@ -22,19 +22,19 @@ function modal() {
     }
 }
 
-function eventsdropmenu() {
+/*function eventsdropmenu() {
     const tevent = document.querySelectorAll('[data-event]');
 
-    /* tevent - tag event
-    aev - add event 
-    atev - atribute event*/
+    // tevent - tag event
+    //aev - add event 
+   // atev - atribute event
 
     tevent.forEach(atev => {
         ['touchstart', 'mouseover'].forEach(aev => {
             atev.addEventListener(aev, uev);
         });
     });
-    /*uev - user event*/
+    //uev - user event
     function uev(event) {
         event.preventDefault();
         this.classList.add('active');
@@ -43,10 +43,10 @@ function eventsdropmenu() {
             this.classList.remove('active');
         });
     };
-    /*usv - user stop event*/
+    //usv - user stop event
     function usv(element, events, callback) {
         const html = document.documentElement;
-        /*os - outside */
+        //os - outside 
         const os = 'data-outside';
 
         if (!element.hasAttribute(os)) {
@@ -73,5 +73,31 @@ function eventsdropmenu() {
         }
     }
 }
-eventsdropmenu();
+eventsdropmenu();*/
+
+const expand = document.querySelectorAll('[aria-expanded]');
+//addevent - add event
+//qevent - query event
+expand.forEach(qevent => {
+    ['mouseover', 'mouseleave'].forEach(addevent => {
+        qevent.addEventListener(addevent, userevnt);
+    });
+});
+
+
+function userevnt(e) {
+    e.preventDefault();
+
+    console.log(e.type);
+
+    if (e.type === 'mouseover') {
+        this.setAttribute('aria-expanded', 'true');
+
+    } else {
+        this.setAttribute('aria-expanded', 'false');
+    }
+}
+
+
+
 modal();

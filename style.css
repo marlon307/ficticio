@@ -286,7 +286,7 @@ body {
     box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
 
-[data-event].active [data-expand] {
+[aria-expanded='true'] [data-expand] {
     display: block;
 }
 
@@ -389,11 +389,6 @@ body {
 
 .mn-cfg ul li a:hover {
     background: var(--c-bgp);
-}
-
-.mn-user:hover .mn-cfg,
-.mn-user:hover .drop-mnu {
-    display: block;
 }
 
 .drop-mnu .block-cards {
