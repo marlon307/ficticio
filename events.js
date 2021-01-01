@@ -74,30 +74,33 @@ function modal() {
     }
 }
 eventsdropmenu();*/
-
-const expand = document.querySelectorAll('[aria-expanded]');
-//addevent - add event
-//qevent - query event
-expand.forEach(qevent => {
-    ['mouseover', 'mouseleave'].forEach(addevent => {
-        qevent.addEventListener(addevent, userevnt);
+function events() {
+    const expand = document.querySelectorAll('[aria-expanded]');
+    //addevent - add event
+    //qevent - query event
+    expand.forEach(qevent => {
+        ['mouseover', 'mouseleave'].forEach(addevent => {
+            qevent.addEventListener(addevent, userevnt);
+        });
     });
-});
 
 
-function userevnt(e) {
-    e.preventDefault();
+    function userevnt(e) {
+        e.preventDefault();
 
-    console.log(e.type);
+        console.log(e.type);
 
-    if (e.type === 'mouseover') {
-        this.setAttribute('aria-expanded', 'true');
+        if (e.type === 'mouseover') {
+            this.setAttribute('aria-expanded', 'true');
 
-    } else {
-        this.setAttribute('aria-expanded', 'false');
+        } else {
+            this.setAttribute('aria-expanded', 'false');
+        }
     }
 }
 
 
 
+
 modal();
+events();
