@@ -816,6 +816,10 @@ h1 {
     align-items: center;
 }
 
+.genero-user {
+    color: var(--c-t2);
+}
+
 .genero-user .block-gn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -826,6 +830,10 @@ h1 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
+}
+
+.rbox {
+    margin-top: 10px;
 }
 
 .panel li {
@@ -1748,10 +1756,6 @@ input::-webkit-inner-spin-button {
     -ms-flex-pack: justify;
     justify-content: space-between;
     color: var(--c-t1);
-}
-
-.genero-user {
-    color: var(--c-t2);
 }
 
 /*Botão adicionar - padrão para o resto do site*/
