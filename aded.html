@@ -22,56 +22,58 @@
                 <label class="title">
                     <p>Endereço</p>
                 </label>
-                <div class="box-text">
-                    <input class="itb" id="nde" placeholder="Nome do Titular" name="nde" type="text" autocomplete="name"
-                        minlength="2" maxlength="60">
-                    <label for="nde">Nome do Destinatario</label>
-                </div>
-                <div class="contain">
+                <form validate>
                     <div class="box-text">
-                        <input class="itb" id="npc" placeholder="CEP" name="npc" type="text" autocomplete="postal-code"
-                            minlength="8" maxlength="8">
-                        <label for="npc">CEP</label>
+                        <input class="itb" id="nde" placeholder="Nome do Titular" name="nde" type="text"
+                            autocomplete="name" minlength="2" maxlength="60">
+                        <label for="nde">Nome do Destinatario</label>
                     </div>
-                </div>
-                <div class="contain" style="width:300px;">
-                    <div class="box-text">
-                        <input class="itb" id="nsd" placeholder="Endereço" name="nsd" type="text"
-                            autocomplete="street-address" minlength="2" maxlength="60">
-                        <label for="nsd">Endereço</label>
-                    </div>
-                    <div class="contain" style="width:100px;">
+                    <div class="contain">
                         <div class="box-text">
-                            <input class="itb" id="nsh" placeholder="Numero" name="nsh" type="text" autocomplete="off"
-                                minlength="1" maxlength="20">
-                            <label for="nsh">Numero</label>
+                            <input class="itb" id="npc" placeholder="CEP" name="npc" type="text"
+                                autocomplete="postal-code" minlength="8" maxlength="8">
+                            <label for="npc">CEP</label>
                         </div>
                     </div>
-                </div>
-                <div class="contain">
-                    <div class="box-text">
-                        <input class="itb" id="nnb" placeholder="Bairro" name="nnb" type="text"
-                            autocomplete="address-level3" minlength="2" maxlength="60">
-                        <label for="nnb">Bairro</label>
-                    </div>
-                </div>
-                <div class="contain" style="width:300px;">
-                    <div class="box-text">
-                        <input class="itb" id="nce" placeholder="Cidade" name="nce" type="text"
-                            autocomplete="shipping shipping address-level2" minlength="2" maxlength="60">
-                        <label for="nce">Cidade</label>
-                    </div>
-                    <div class="contain" style="width:100px;">
+                    <div class="contain" style="width:300px;">
                         <div class="box-text">
-                            <input class="itb" id="nee" placeholder="Estado" name="nee" type="text"
-                                autocomplete="shipping address-level1" minlength="2" maxlength="50">
-                            <label for="nee">Estado</label>
+                            <input class="itb" id="nsd" placeholder="Endereço" name="nsd" type="text"
+                                autocomplete="street-address" minlength="2" maxlength="60">
+                            <label for="nsd">Endereço</label>
+                        </div>
+                        <div class="contain" style="width:100px;">
+                            <div class="box-text">
+                                <input class="itb" id="nsh" placeholder="Numero" name="nsh" type="text"
+                                    autocomplete="off" minlength="1" maxlength="20">
+                                <label for="nsh">Numero</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="add-add">
-                    <span>Adicionar Endereço</span>
-                </div>
+                    <div class="contain">
+                        <div class="box-text">
+                            <input class="itb" id="nnb" placeholder="Bairro" name="nnb" type="text"
+                                autocomplete="address-level3" minlength="2" maxlength="60">
+                            <label for="nnb">Bairro</label>
+                        </div>
+                    </div>
+                    <div class="contain" style="width:300px;">
+                        <div class="box-text">
+                            <input class="itb" id="nce" placeholder="Cidade" name="nce" type="text"
+                                autocomplete="shipping shipping address-level2" minlength="2" maxlength="60">
+                            <label for="nce">Cidade</label>
+                        </div>
+                        <div class="contain" style="width:100px;">
+                            <div class="box-text">
+                                <input class="itb" id="nee" placeholder="Estado" name="nee" type="text"
+                                    autocomplete="shipping address-level1" minlength="2" maxlength="50">
+                                <label for="nee">Estado</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-add">
+                        <span>Adicionar Endereço</span>
+                    </div>
+                </form>
             </div>
             <div class="links">
                 <a class="link" href="#">

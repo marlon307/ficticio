@@ -22,38 +22,40 @@
                 <div class="flag">
                     <span>Bandeira do cartão</span>
                 </div>
-                <div class="contain">
-                    <div class="box-text">
-                        <input class="itb" id="ncc" placeholder="N° do Cartão" name="ncc" type="tel" maxlength="19"
-                            autocomplete="cc-number">
-                        <label for="ncc">N° do Cartão</label>
-                    </div>
-                </div>
-                <div class="contain">
-                    <div class="box-text">
-                        <input class="itb" id="ntc" placeholder="Nome do Titular" name="ntc" type="text"
-                            autocomplete="cc-name" maxlength="60">
-                        <label for="ntc">Nome do Titular</label>
-                    </div>
-                </div>
-                <div class="block">
-                    <span>Validade</span>
-                    <div class="contain" style="width: 300px;">
+                <form validate>
+                    <div class="contain">
                         <div class="box-text">
-                            <input class="itb" id="nccm" placeholder="Mês" name="nccm" type="text"
-                                autocomplete="cc-exp-month" maxlength="2">
-                            <label for="nccm">Mês</label>
-                        </div>
-                        <div class="box-text" style="margin-left: 8%;">
-                            <input class="itb" id="nccy" placeholder="Ano" name="nccy" type="text"
-                                autocomplete="cc-exp-year" maxlength="4">
-                            <label for="nccy">Ano</label>
+                            <input class="itb" id="ncc" placeholder="N° do Cartão" name="ncc" type="tel" maxlength="19"
+                                autocomplete="cc-number">
+                            <label for="ncc">N° do Cartão</label>
                         </div>
                     </div>
-                </div>
-                <div class="add-add">
-                    <span>Adicionar Cartão</span>
-                </div>
+                    <div class="contain">
+                        <div class="box-text">
+                            <input class="itb" id="ntc" placeholder="Nome do Titular" name="ntc" type="text"
+                                autocomplete="cc-name" maxlength="60">
+                            <label for="ntc">Nome do Titular</label>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <span>Validade</span>
+                        <div class="contain" style="width: 300px;">
+                            <div class="box-text">
+                                <input class="itb" id="nccm" placeholder="Mês" name="nccm" type="text"
+                                    autocomplete="cc-exp-month" maxlength="2">
+                                <label for="nccm">Mês</label>
+                            </div>
+                            <div class="box-text" style="margin-left: 8%;">
+                                <input class="itb" id="nccy" placeholder="Ano" name="nccy" type="text"
+                                    autocomplete="cc-exp-year" maxlength="4">
+                                <label for="nccy">Ano</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-add">
+                        <span>Adicionar Cartão</span>
+                    </div>
+                </form>
             </div>
             <div class="links">
                 <a class="link" href="#">

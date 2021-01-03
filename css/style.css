@@ -785,7 +785,7 @@ h1 {
 }
 
 .panel-cfg input:checked~.container {
-    height: 520px;
+    height: 530px;
 }
 
 .panel .top-panel {
@@ -1389,12 +1389,12 @@ input::-webkit-inner-spin-button {
     width: 200px;
 }
 
-.box-select li {
+.box-select .bc-option {
     margin-top: 10px;
     padding: 10px;
 }
 
-.box-select li:hover {
+.box-select .bc-option:hover {
     background: var(--c-bgp);
 }
 
