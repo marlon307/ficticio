@@ -601,160 +601,151 @@
             </div>
             <div class="container-order">
                 <!--Modo order-->
-                <div class="mo">
-                    <p class="title">Endereço de Entrega</p>
-                    <div class="box-select">
-                        <div aria-expanded="false" class="box-menu">
-                            <span>Endereço</span>
-                            <div data-expand class="drop-dow">
-                                <div class="box-text">
-                                    <input class="itb" id="zipcod" placeholder="CEP" name="zipcod" autocomplete="off">
-                                    <label for="zipcod">CEP</label>
+                <form>
+                    <div class="mo">
+                        <p class="title">Endereço de Entrega</p>
+                        <div class="box-select">
+                            <div aria-expanded="false" class="box-menu">
+                                <span>Endereço</span>
+                                <div data-expand class="drop-dow">
+                                    <div class="box-text">
+                                        <input class="itb" id="zipcod" placeholder="CEP" name="zipcod"
+                                            autocomplete="off">
+                                        <label for="zipcod">CEP</label>
+                                    </div>
+                                    <ul>
+                                        <li class="bc-option">
+                                            <p>Nome do Dest. - Casa</p>
+                                            <p>Rua rua, 000 - Bairro Bairro</p>
+                                            <p>Nome da Cidade, UF - 00000-000</p>
+                                        </li>
+                                        <li class="bc-option">
+                                            <p>Nome do Dest. - Casa</p>
+                                            <p>Rua rua, 000 - Bairro Bairro</p>
+                                            <p>Nome da Cidade, UF - 00000-000</p>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li class="bc-option">
-                                        <p>Nome do Dest. - Casa</p>
-                                        <p>Rua rua, 000 - Bairro Bairro</p>
-                                        <p>Nome da Cidade, UF - 00000-000</p>
-                                    </li>
-                                    <li class="bc-option">
-                                        <p>Nome do Dest. - Casa</p>
-                                        <p>Rua rua, 000 - Bairro Bairro</p>
-                                        <p>Nome da Cidade, UF - 00000-000</p>
-                                    </li>
-                                </ul>
+                            </div>
+                            <div class="slected">
+                                <p>Nome do Dest. - Casa</p>
+                                <p>Rua rua, 000 - Bairro Bairro</p>
+                                <p>Nome da Cidade, UF - 00000-000</p>
                             </div>
                         </div>
-                        <div class="slected">
-                            <p>Nome do Dest. - Casa</p>
-                            <p>Rua rua, 000 - Bairro Bairro</p>
-                            <p>Nome da Cidade, UF - 00000-000</p>
-                        </div>
                     </div>
-                </div>
-                <div class="mo">
-                    <p class="title">Frete</p>
-                    <div class="box-select">
-                        <div aria-expanded="false" class="box-menu">
-                            <span>Tranportadora</span>
-                            <div data-expand class="drop-dow">
-                                <ul>
-                                    <li class="bc-option">
-                                        <p>Correios</p>
-                                        <p>R$ 17,50</p>
-                                        <p>Até 5 dias úteis</p>
-                                    </li>
-                                    <li class="bc-option">
-                                        <p>UPS</p>
-                                        <p>R$ 20,00</p>
-                                        <p>Até 2 dias úteis</p>
-                                    </li>
-                                    <li class="bc-option">
-                                        <p>DHL</p>
-                                        <p>R$ 54,00</p>
-                                        <p>Até 1 dias úteis</p>
-                                    </li>
-                                </ul>
+                    <div class="mo">
+                        <p class="title">Frete</p>
+                        <div class="box-select">
+                            <div aria-expanded="false" class="box-menu">
+                                <span>Tranportadora</span>
+                                <div data-expand class="drop-dow">
+                                    <ul>
+                                        <li class="bc-option">
+                                            <p>Correios</p>
+                                            <p>R$ 17,50</p>
+                                            <p>Até 5 dias úteis</p>
+                                        </li>
+                                        <li class="bc-option">
+                                            <p>UPS</p>
+                                            <p>R$ 20,00</p>
+                                            <p>Até 2 dias úteis</p>
+                                        </li>
+                                        <li class="bc-option">
+                                            <p>DHL</p>
+                                            <p>R$ 54,00</p>
+                                            <p>Até 1 dias úteis</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slected">
+                                <p>Correios</p>
+                                <p>R$ 17,50</p>
+                                <p>Até 3 dias úteis</p>
                             </div>
                         </div>
-                        <div class="slected">
-                            <p>Correios</p>
-                            <p>R$ 17,50</p>
-                            <p>Até 3 dias úteis</p>
-                        </div>
                     </div>
-                </div>
-                <div class="mo">
-                    <p class="title">Forma de Pagamento</p>
-                    <div class="box-select">
-                        <div aria-expanded="false" class="box-menu">
-                            <span>Pagamento</span>
-                            <div data-expand class="drop-dow">
-                                <ul>
-                                    <li class="bc-option">
-                                        <p>Boleto Bancario</p>
-                                        <p>000.000.000-00</p>
-                                        <p>1X - R$ 248,00</p>
-                                    </li>
-                                    <li class="bc-option">
-                                        <p>Cartão de credito - BankNew</p>
-                                        <p>**** **** **** 0000</p>
-                                        <p>Marlron R...</p>
-                                        <div class="contain">
-                                            <div class="box-number">
-                                                <button>-</button>
-                                                <input type="number" value="1" min="1" max="99" readonly>
-                                                <button>+</button>
-                                            </div>
-
-
-                                            <form validate>
+                    <div class="mo">
+                        <p class="title">Forma de Pagamento</p>
+                        <div class="box-select">
+                            <div aria-expanded="false" class="box-menu">
+                                <span>Pagamento</span>
+                                <div data-expand class="drop-dow">
+                                    <ul>
+                                        <li class="bc-option">
+                                            <p>Boleto Bancario</p>
+                                            <p>000.000.000-00</p>
+                                            <p>1X - R$ 248,00</p>
+                                        </li>
+                                        <li class="bc-option">
+                                            <p>Cartão de credito - BankNew</p>
+                                            <p>**** **** **** 0000</p>
+                                            <p>Marlron R...</p>
+                                            <div class="contain">
+                                                <div class="box-number">
+                                                    <button>-</button>
+                                                    <input type="number" value="1" min="1" max="99" readonly>
+                                                    <button>+</button>
+                                                </div>
                                                 <div class="box-text" style="width: 50px; margin-left: 20px;">
                                                     <input class="itb" id="nccv" placeholder="CVV" name="nccv"
                                                         autocomplete="off" maxlength="3">
                                                     <label for="nccv">CVV</label>
                                                 </div>
-                                            </form>
-
-
-                                        </div>
-                                    </li>
-                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slected">
+                                <p>Cartão de credito - BankNew</p>
+                                <p>**** **** **** 0000</p>
+                                <p>Nome Sobre...</p>
+                                <p>3x R$ 90,00 - Com Juros R$ 270,00</p>
                             </div>
                         </div>
-                        <div class="slected">
-                            <p>Cartão de credito - BankNew</p>
-                            <p>**** **** **** 0000</p>
-                            <p>Nome Sobre...</p>
-                            <p>3x R$ 90,00 - Com Juros R$ 270,00</p>
-                        </div>
                     </div>
-                </div>
-                <div class="mo">
-                    <p class="title">Cupom de Desconto</p>
-                    <div class="box-select">
-                        <div aria-expanded="false" class="box-menu">
-                            <span>Cupom</span>
-                            <div data-expand class="drop-dow">
-
-
-                                <form validate>
+                    <div class="mo">
+                        <p class="title">Cupom de Desconto</p>
+                        <div class="box-select">
+                            <div aria-expanded="false" class="box-menu">
+                                <span>Cupom</span>
+                                <div data-expand class="drop-dow">
                                     <div class="box-text">
                                         <input class="itb" id="cupon" placeholder="CUPOM" name="cupon"
                                             autocomplete="off">
                                         <label for="cupon">CUPOM</label>
                                     </div>
-                                </form>
-
-
-                                <ul>
-                                    <li class="bc-option">
-                                        <p>DESCONTO10</p>
-                                        <p>Valido até 27/12/2020</p>
-                                    </li>
-                                    <li class="bc-option">
-                                        <p>WERFSADS</p>
-                                        <p>Validade inderteminado</p>
-                                    </li>
-                                </ul>
+                                    <ul>
+                                        <li class="bc-option">
+                                            <p>DESCONTO10</p>
+                                            <p>Valido até 27/12/2020</p>
+                                        </li>
+                                        <li class="bc-option">
+                                            <p>WERFSADS</p>
+                                            <p>Validade inderteminado</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slected">
+                                <p>Cupom - DESCONTO10 - aplicado</p>
+                                <p>-R$ 20,00</p>
                             </div>
                         </div>
-                        <div class="slected">
-                            <p>Cupom - DESCONTO10 - aplicado</p>
-                            <p>-R$ 20,00</p>
+                    </div>
+                    <div class="buy-bag">
+                        <div class="buy-info">
+                            <div class="box-title">
+                                <span class="buy-title">FINALIZAR COMPRA</span>
+                            </div>
+                            <div class="box-value">
+                                <span class="buy-value">R$ 261,40</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="buy-bag">
-                    <div class="buy-info">
-                        <div class="box-title">
-                            <span class="buy-title">FINALIZAR COMPRA</span>
-                        </div>
-                        <div class="box-value">
-                            <span class="buy-value">R$ 261,40</span>
-                        </div>
-                    </div>
-                </div>
+                </form>
             </div>
         </section>
     </main>
@@ -832,8 +823,9 @@
             <p>howlinghawn eCommerce LTDA 00.000.000-0000/00 Rua xxx Bairro: xxx N°: xxx Estado: MG</p>
         </div>
     </footer>
+    <script type="module" src="js/rq.js"></script>
 </body>
-<script type="module" src="js/rq.js">
+
 
 </script>
 

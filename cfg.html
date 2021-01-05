@@ -404,8 +404,8 @@
                 <label for="cfguser" class="top-panel">
                     <p>Configurações do Usuário</p>
                 </label>
-                <form validate>
-                    <div class="container">
+                <div class="container">
+                    <form>
                         <div class="contain">
                             <div class="box-text">
                                 <input class="itb" id="uname" placeholder="Nome" name="name" type="text"
@@ -422,7 +422,7 @@
                         </div>
                         <div class="contain">
                             <div class="box-text">
-                                <input class="itb" id="upsw" placeholder="Senha" name="pswu" type="password"
+                                <input class="itb" id="upsw" placeholder="Senha" name="psw" type="password"
                                     minlength="5">
                                 <label for="upsw">Senha</label>
                             </div>
@@ -435,18 +435,18 @@
                         </div>
                         <div class="contain">
                             <div class="box-text">
-                                <input class="itb" id="udoc" placeholder="*CPF/CNPJ" name="docu" type="text"
+                                <input class="itb" id="udoc" placeholder="*CPF/CNPJ" name="doc" type="text"
                                     autocomplete="off">
                                 <label for="udoc">CPF/CNPJ</label>
                             </div>
                         </div>
                         <div class="contain" style="width: 300px;">
                             <div class="box-text">
-                                <input class="itb" id="utlm" placeholder="Telefone" name="tel1" type="tel">
+                                <input class="itb" id="utlm" placeholder="Telefone" name="tel" type="tel">
                                 <label for="utlm">Telefone</label>
                             </div>
                             <div class="box-text" style="margin-left:7%;">
-                                <input class="itb" id="ucll" placeholder="Celular" name="tel2" type="tel"
+                                <input class="itb" id="ucll" placeholder="Celular" name="tel" type="tel"
                                     autocomplete="tel">
                                 <label for="ucll">Celular</label>
                             </div>
@@ -468,8 +468,8 @@
                                 </label>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
             <div class="panel">
                 <input type="radio" id="cfgod" name="dropckmn">
@@ -744,7 +744,8 @@
             <p>howlinghawn eCommerce LTDA 00.000.000-0000/00 Rua xxx Bairro: xxx N°: xxx Estado: MG</p>
         </div>
     </footer>
+    <script type="module" src="js/rq.js"></script>
 </body>
-<script type="module" src="js/rq.js"></script>
+
 
 </html>
