@@ -275,11 +275,10 @@ body {
 }
 
 .ctg-search .container-ctg {
-    position: absolute;
-    left: 0;
-    top: 40px;
+    position: fixed;
     width: 100%;
-    height: 300px;
+    height: 350px;
+    left: 0;
     background: var(--c-p);
     padding: 20px;
     display: none;
@@ -288,8 +287,9 @@ body {
 }
 
 .ctg-search .sub-mndp {
-    width: 70%;
+    width: 50%;
     height: 100%;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2304,7 +2304,6 @@ input:-webkit-autofill {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        box-shadow: 0 30px 20px 20px #ffffff40;
     }
 
     .menu:first-child,
