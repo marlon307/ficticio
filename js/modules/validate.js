@@ -9,7 +9,6 @@ export default function validate() {
         //const teste = vs.getAttribute('id');
         // console.log(teste);
         //he - handle change
-        v.addEventListener('change', hc);
 
         const ohv = { //oht - object handle validate
             element: vs,
@@ -81,5 +80,6 @@ export default function validate() {
             console.log(n, v);
             ohv[n](v);
         }
+        v.addEventListener('change', hc);
     }
 }

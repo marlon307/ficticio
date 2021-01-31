@@ -4,7 +4,6 @@ export default function fevents() {
     const btce = document.querySelector('[data-event="close"]');
 
     if (mdd && btop && btce) {
-
         function tmd(event) {
             event.preventDefault();
             mdd.classList.toggle('active');
@@ -16,19 +15,18 @@ export default function fevents() {
             }
         }
 
-        btop.addEventListener('click', tmd); //Evento abrir modal toggle modal 
-        btce.addEventListener('click', tmd); //Evento fechar modal 
-        mdd.addEventListener('click', extm); //Evento exteno modal 
+        btop.addEventListener('click', tmd); // Evento abrir modal toggle modal
+        btce.addEventListener('click', tmd); // Evento fechar modal
+        mdd.addEventListener('click', extm); // Evento exteno modal
     }
 
     /* Revisa codigo para parar pausar o evento se possivel */
     const expand = document.querySelectorAll('[aria-expanded]');
-    //addevent - add event
-    //qevent - query event
-    expand.forEach(qevent => {
-        ['mouseover', 'mouseleave'].forEach(addevent => {
+    // addevent - add event
+    // qevent - query event
+    expand.forEach((qevent) => {
+        ['mouseover', 'mouseleave'].forEach((addevent) => {
             qevent.addEventListener(addevent, function (e) {
-
                 e.preventDefault();
 
                 if (e.type === 'mouseover') {

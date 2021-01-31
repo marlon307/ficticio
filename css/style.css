@@ -292,15 +292,8 @@ body {
     width: 50%;
     height: 100%;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-flow: wrap column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    align-content: start;
     flex-flow: wrap column;
 }
 
@@ -2366,33 +2359,28 @@ input:-webkit-autofill {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 35%;
+        width: 100%;
         margin-top: 15%;
     }
 
     .ctg-search .ctg-option {
         width: 100%;
+        height: auto !important;
         padding: 10px 0;
-        margin: 10px 10%;
+        margin: 10px 0;
     }
 
     .ctg-search li .ctg {
         width: 100%;
-        justify-content: left;
-    }
-
-    .set::after {
-        transform: rotate(-90deg);
-        right: 0;
-        bottom: auto;
+        justify-content: center;
     }
 
     .ctg-search .container-ctg {
-        width: 50%;
-        height: 100%;
+        position: relative;
+        width: 100%;
+        height: auto !important;
         left: auto;
         right: 0;
-        top: 90px;
     }
 
     .ctg-search .sub-mndp {
