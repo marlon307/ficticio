@@ -1548,8 +1548,8 @@ input::-webkit-inner-spin-button {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    width: 4px;
-    height: 7px;
+    width: 3px;
+    height: 6px;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
