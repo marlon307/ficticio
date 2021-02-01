@@ -1520,9 +1520,12 @@ input::-webkit-inner-spin-button {
 }
 
 .cfg-pro .colorid {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--c-p);
     width: 1.2rem;
     height: 1.2rem;
@@ -1537,9 +1540,19 @@ input::-webkit-inner-spin-button {
     color: var(--c-bt);
 }
 
-.cfg-pro .color input:checked~span {
-    width: 18px;
-    height: 18px;
+.cfg-pro .color input:checked~span::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid var(--c-b);
+    border-right: 2px solid var(--c-b);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 4px;
+    height: 7px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
 
 .mp {
