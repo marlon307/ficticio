@@ -811,23 +811,7 @@ h1 {
     align-items: center;
 }
 
-.genero-user {
-    color: var(--c-t2);
-}
-
-.genero-user .block-gn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-
-}
-
-.rbox {
+.cb {
     margin-top: 10px;
 }
 
@@ -1462,33 +1446,29 @@ input::-webkit-inner-spin-button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 20px;
     font-size: var(--font-15);
+    margin: 0 10px;
 }
 
-.cfg-pro div:first-child {
-    margin-right: 20px;
-}
-
-.cfg-pro ul {
+.lop {
     position: absolute;
     display: none;
-    padding: 2px 3px;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 3px 0;
     background: var(--c-p);
     -webkit-box-shadow: 0 0 5px 0 var(--c-bs);
     box-shadow: 0 0 5px 0 var(--c-bs);
 }
 
-.cfg-pro li {
-    margin: 5px 0;
+.oc {
+    margin: 5px;
 }
 
-.cfg-pro li:hover {
+.oc:hover {
     color: var(--c-bt);
 }
 
-.cfg-pro label {
+.oc label {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1850,7 +1830,7 @@ input::-webkit-inner-spin-button {
 }
 
 /*input type radio*/
-.rbox span {
+.cb span {
     font-size: var(--font-13);
     margin-right: 20px;
     display: -webkit-box;
@@ -1864,7 +1844,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-.rbox span::before {
+.cb span::before {
     content: "";
     width: 13px;
     height: 13px;
@@ -1874,7 +1854,7 @@ input::-webkit-inner-spin-button {
     margin-right: 10px;
 }
 
-.rbox input:checked~span::before {
+.cb input:checked~span::before {
     border: 3px solid var(--c-bt);
 }
 
@@ -2000,10 +1980,100 @@ img {
 
 
 .filter {
-    top: 15%;
-    margin: 10px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
     z-index: 997;
-    background: var(--c-b);
+    background: var(--c-p);
+    box-shadow: 0px 0px 15px 0px var(--c-bs);
+}
+
+.filter .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter .ico15 {
+    margin-left: 10px;
+}
+
+.filter .sl {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mcb {
+    text-align: start;
+    width: 220px;
+    min-height: 100px;
+    color: var(--c-t2);
+    margin: 0 10px;
+}
+
+.mcb .b-cb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.ls {
+    margin: 10px 0;
+}
+
+.lls {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lls input:checked~span {
+    font-weight: bold;
+}
+
+.lc {
+    margin: 10px 0;
+}
+
+.llc {
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+    float: left;
+}
+
+.llc span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-p);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: var(--c-bt);
+    border: 1px solid var(--c-b);
+}
+
+.llc input:checked~span::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid var(--c-b);
+    border-right: 2px solid var(--c-b);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 3px;
+    height: 6px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
 
 .modal {
@@ -2217,6 +2287,18 @@ input:-webkit-autofill {
 }
 
 @media screen and (max-width: 823px) {
+
+    .filter {
+        position: absolute;
+        margin: 0 auto;
+        height: 30px;
+        overflow: hidden;
+    }
+
+    .filter:hover {
+        height: auto;
+    }
+
     .product {
         width: 30%;
         height: 300px;
