@@ -2295,6 +2295,10 @@ input:-webkit-autofill {
         overflow: hidden;
     }
 
+    .filter .sl {
+        display: none;
+    }
+
     .product {
         width: 30%;
         height: 300px;
