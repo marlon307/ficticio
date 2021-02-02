@@ -2291,12 +2291,8 @@ input:-webkit-autofill {
     .filter {
         position: absolute;
         margin: 0 auto;
-        height: 30px;
+        max-height: 80%;
         overflow: hidden;
-    }
-
-    .filter:hover {
-        height: auto;
     }
 
     .product {
