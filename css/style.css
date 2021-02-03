@@ -1988,10 +1988,14 @@ img {
     box-shadow: 0px 0px 15px 0px var(--c-bs);
 }
 
-.filter .title {
+.filter .top {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100px;
+    max-height: 80%;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 .filter .ico15 {
@@ -2173,10 +2177,6 @@ input:-webkit-autofill {
     border-radius: 5px;
 }
 
-[aria-expanded='true'] [data-expand] {
-    display: block;
-}
-
 @media screen and (max-width: 1650px) {
     .menu {
         margin: 0 20px;
@@ -2291,7 +2291,6 @@ input:-webkit-autofill {
     .filter {
         position: absolute;
         margin: 0 auto;
-        max-height: 80%;
         overflow: hidden;
     }
 
@@ -2368,6 +2367,10 @@ input:-webkit-autofill {
     .product .price {
         bottom: 3rem;
         font-size: var(--font-18);
+    }
+
+    [aria-expanded='true']~[data-expand] {
+        display: block;
     }
 }
 
@@ -2659,4 +2662,8 @@ input:-webkit-autofill {
     .f-block {
         margin: 20px;
     }
+}
+
+[aria-expanded='true'] [data-expand] {
+    display: block;
 }
