@@ -2292,6 +2292,7 @@ input:-webkit-autofill {
         position: absolute;
         margin: 0 auto;
         overflow: hidden;
+        max-height: 80%;
     }
 
     .filter .sl {
