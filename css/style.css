@@ -2002,7 +2002,7 @@ img {
     margin-left: 10px;
 }
 
-.filter .sl {
+.filter .csl {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -2292,7 +2292,7 @@ input:-webkit-autofill {
         top: 0;
         position: fixed;
         margin: 0 auto;
-        overflow: hidden;
+        overflow: auto;
         max-height: 70%;
     }
 
@@ -2373,10 +2373,6 @@ input:-webkit-autofill {
     .product .price {
         bottom: 3rem;
         font-size: var(--font-18);
-    }
-
-    [aria-expanded='true']~[data-expand] {
-        display: block;
     }
 }
 
