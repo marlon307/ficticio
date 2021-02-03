@@ -2289,7 +2289,8 @@ input:-webkit-autofill {
 @media screen and (max-width: 823px) {
 
     .filter {
-        position: absolute;
+        top: 0;
+        position: fixed;
         margin: 0 auto;
         overflow: hidden;
         max-height: 80%;
@@ -2297,6 +2298,10 @@ input:-webkit-autofill {
 
     .filter .sl {
         display: none;
+    }
+
+    .sc .title {
+        margin-top: 80px;
     }
 
     .product {
