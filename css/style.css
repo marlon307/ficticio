@@ -2005,7 +2005,6 @@ img {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -2014,7 +2013,7 @@ img {
     width: 220px;
     min-height: 100px;
     color: var(--c-t2);
-    margin: 0 10px;
+    margin: 10px;
 }
 
 .mcb .b-cb {
