@@ -1980,7 +1980,6 @@ img {
 
 
 .filter {
-    width: 90%;
     margin: 20px auto;
     padding: 20px;
     z-index: 997;
@@ -2290,6 +2289,7 @@ input:-webkit-autofill {
 
     .filter {
         top: 0;
+        width: 100%;
         position: fixed;
         margin: 0 auto;
         overflow: auto;
@@ -2298,6 +2298,7 @@ input:-webkit-autofill {
 
     .filter .sl {
         display: none;
+        margin: 0 20px;
     }
 
     .sc .title {
