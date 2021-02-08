@@ -31,36 +31,36 @@
     --font-35: 2.188rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
     :root {
-        /*Cor padrao*/
+        //Cor padrao
         --c-p: #252525;
         --c-d: #fff;
         --c-db: #000;
-        /*Cor da borda*/
+        //Cor da borda
         --c-b: #656565;
-        /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
+        //cor do botão de login e compra e checkbox menu e footer e cor do hover
         --c-bt: #0c0c0c;
         --c-bth: #202020;
-        /*cor do box shadow*/
+        //cor do box shadow
         --c-bs: #00000015;
-        /*texto tab*/
+        //texto tab
         --c-tb: #303030;
-        /*Cor da barra de notificação*/
+        //Cor da barra de notificação
         --c-nt: #ff5656;
-        /*cor de positvo*/
+        //cor de positvo
         --c-ps: #58b64c;
-        /*cor de links*/
+        //cor de links
         --c-l: #5890e4;
-        /*cor de alguns icones svg e fonte:hover*/
+        //cor de alguns icones svg e fonte:hover
         --c-i: #ababab;
         --c-ih: #454545;
         --c-bbh: #e1e1e1;
-        /*background dos produtos*/
+        //background dos produtos
         --c-bgp: #353535;
-        /*cor do titulo do produtos*/
+        //cor do titulo do produtos
         --c-tp: #dcdcdc;
-        /*cor titulo*/
+        //cor titulo
         --c-t0: #fff;
         --c-t1: #D3D3D3;
         --c-t2: #A8A8A8;
@@ -68,44 +68,44 @@
         --c-t4: #D0D0D0;
     }
 }
-
-@media (prefers-color-scheme: light) {
-    :root {
-        /*Cor padrao*/
-        --c-p: #fff;
-        --c-d: #fff;
-        --c-db: #000;
-        /*Cor da borda*/
-        --c-b: #d2d2d2;
-        /*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
-        --c-bt: #0c0c0c;
-        --c-bth: #202020;
-        /*cor do box shadow*/
-        --c-bs: #00000015;
-        /*texto tab*/
-        --c-tb: #303030;
-        /*Cor da barra de notificação*/
-        --c-nt: #ff5656;
-        /*cor de positvo*/
-        --c-ps: #58b64c;
-        /*cor de links*/
-        --c-l: #5890e4;
-        /*cor de alguns icones svg e fonte:hover*/
-        --c-i: #757575;
-        --c-ih: #454545;
-        --c-bbh: #e1e1e1;
-        /*background dos produtos*/
-        --c-bgp: #f3f3f3;
-        /*cor do titulo do produtos*/
-        --c-tp: #f5f5f5;
-        /*cor titulo*/
-        --c-t0: #000;
-        --c-t1: #4d4d4d;
-        --c-t2: #1e1e1e;
-        --c-t3: #444444;
-        --c-t4: #151515;
-    }
-}
+*/
+/*@media (prefers-color-scheme: light) {
+    :root {*/
+/*Cor padrao*/
+--c-p: #fff;
+--c-d: #fff;
+--c-db: #000;
+/*Cor da borda*/
+--c-b: #d2d2d2;
+/*cor do botão de login e compra e checkbox menu e footer e cor do hover*/
+--c-bt: #0c0c0c;
+--c-bth: #202020;
+/*cor do box shadow*/
+--c-bs: #00000015;
+/*texto tab*/
+--c-tb: #303030;
+/*Cor da barra de notificação*/
+--c-nt: #ff5656;
+/*cor de positvo*/
+--c-ps: #58b64c;
+/*cor de links*/
+--c-l: #5890e4;
+/*cor de alguns icones svg e fonte:hover*/
+--c-i: #757575;
+--c-ih: #454545;
+--c-bbh: #e1e1e1;
+/*background dos produtos*/
+--c-bgp: #f3f3f3;
+/*cor do titulo do produtos*/
+--c-tp: #f5f5f5;
+/*cor titulo*/
+--c-t0: #000;
+--c-t1: #4d4d4d;
+--c-t2: #1e1e1e;
+--c-t3: #444444;
+--c-t4: #151515;
+/*}
+}*/
 
 * {
     border: none;
@@ -780,7 +780,7 @@ h1 {
 }
 
 .panel-cfg input:checked~.container {
-    height: 530px;
+    height: 570px;
 }
 
 .panel .top-panel {
