@@ -390,8 +390,7 @@ body {
     content: "";
     display: none;
     position: absolute;
-    bottom: 12px;
-    margin: 0 auto;
+    bottom: 10px;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
     border-bottom: 6px solid var(--c-p);
@@ -2151,7 +2150,7 @@ img {
 
 .switch input:checked+.slider::before {
     background: var(--c-ps);
-    transform: translateX(30px);
+    transform: translate3d(30px, 0, 0);
 }
 
 input:-webkit-autofill {
