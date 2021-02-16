@@ -1,6 +1,6 @@
 export default function load() {
 
-    const links = document.querySelectorAll('a');
+    const links = document.querySelectorAll('[data-link]');
 
     links.forEach(link => {
         link.addEventListener('click', linklick);
@@ -11,7 +11,7 @@ export default function load() {
     });
 
     async function fetchPage(url) {
-        document.querySelector('.content').innerHTML = 'Carregando';
+        document.querySelector('.content').innerHTML = '<div class="loading">Carregando</div>';
         const pgResponse = await fetch(url);
         const pgText = await pgResponse.text();
         rpContent(pgText);
