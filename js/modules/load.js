@@ -1,3 +1,6 @@
+import addons from './addons.js';
+import events from './events.js';
+
 export default function load() {
 
     const links = document.querySelectorAll('[data-link]');
@@ -39,5 +42,9 @@ export default function load() {
 
         oldPg.innerHTML = newPg.innerHTML;
         document.title = newHtml.querySelector('title').innerText;
+
+        addons();
+        load();
+        events();
     }
 }
